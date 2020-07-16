@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="Beakerwithliq.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2">
+    <inkscape:perspective
+       id="perspective2392"
+       inkscape:persp3d-origin="245.6706 : 99.980842 : 1"
+       inkscape:vp_z="-444.9433 : 100.07034 : 1"
+       inkscape:vp_y="-9.4054931 : -2.1093553 : 0"
+       inkscape:vp_x="935.35331 : 99.682512 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-maximized="0"
+     inkscape:window-y="0"
+     inkscape:window-x="152"
+     inkscape:window-height="1020"
+     inkscape:window-width="1624"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="858.7092"
+     inkscape:cx="841.20875"
+     inkscape:zoom="0.35"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     style="opacity:0.174;mix-blend-mode:normal"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       transform="scale(0.26458333)"
+       d="m 154.28516,325.71484 v 620 H 622.85742 V 442.10547 l 68.44141,-111.66797 -68.44141,-1.79688 v -2.92578 H 511.42773 Z"
+       style="fill:#00ffff;fill-rule:evenodd;stroke-width:0.999999"
+       id="beaker" />
+    <rect
+       ry="10.583333"
+       y="159.50595"
+       x="41.577381"
+       height="90.714432"
+       width="123.22031"
+       id="liquid"
+       style="fill:#ff00ff;stroke-width:0.264583" />
+  </g>
+</svg>
