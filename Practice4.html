@@ -5,73 +5,69 @@
             #main{
                 height:1400;
                 width:1080;
-                
+                padding-top:100px;
+
+            }
+            .master{
+                height: 100px; 
+                width: 700px;
+                margin-left: 300px;
+                position: relative;
+                z-index: 0;
+            }
+
+            .slave{
+                height: 100px; 
+                width: 700px;
+                margin-left: 300px;
+                position: absolute;
             }
         </style>
     </head>
     <body style="overflow: hidden;">
-        
-    
-        <div style="background-color: #536c53; height: 100px; width: 700px; margin-left: 300px;">
 
+     <div class="slave" style="background-color: #536c53;">
+            Hello world
         </div>
-        <svg id="main"
-        xmlns:dc="http://purl.org/dc/elements/1.1/"
-        xmlns:cc="http://creativecommons.org/ns#"
-        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-        xmlns:svg="http://www.w3.org/2000/svg"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-        xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-        
-        width="210mm"
-        height="297mm"
-        viewBox="0 0 210 297"
-        version="1.1"
-        id="svg8"
-        inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-        sodipodi:docname="newmain.svg">
-        <defs
-            id="defs2" />
-        <sodipodi:namedview
-            id="base"
-            pagecolor="#ffffff"
-            bordercolor="#666666"
-            borderopacity="1.0"
-            inkscape:pageopacity="0.0"
-            inkscape:pageshadow="2"
-            inkscape:zoom="0.98994949"
-            inkscape:cx="162.65053"
-            inkscape:cy="184.91752"
-            inkscape:document-units="mm"
-            inkscape:current-layer="layer1"
-            inkscape:document-rotation="0"
-            showgrid="false"
-            showguides="false"
-            inkscape:window-width="1920"
-            inkscape:window-height="986"
-            inkscape:window-x="-11"
-            inkscape:window-y="-11"
-            inkscape:window-maximized="1" />
-        <metadata
-            id="metadata5">
-            <rdf:RDF>
-            <cc:Work
-                rdf:about="">
-                <dc:format>image/svg+xml</dc:format>
-                <dc:type
-                rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                <dc:title></dc:title>
-            </cc:Work>
-            </rdf:RDF>
-        </metadata>
 
+        <div class="slave" style="background-color: #533353;">
+            Yash is Hungry
+        </div>
+        <div class="slave" style="background-color: #556753;">
+            Save me Yash is gonna delete me later
+        </div>
+        <div class="slave master" style="background-color: #53ddd3;">
+            I want Chicken Biryani before I am deleted
+        </div>
 
-
-        <g
-        inkscape:label="Layer 1"
-        inkscape:groupmode="layer"
-        id="layer1">
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg id="main"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1">
     <rect
        y="1.2417206"
        x="1.5282648"
@@ -297,7 +293,6 @@
     </g>
     <path
        id="beaker-7"
-       onclick="move(evt)"
        style="opacity:0.271566;mix-blend-mode:normal;fill:#00ffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.0698225;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 7.365189,7.4662763 V 21.553533 h 9.739162 V 10.110831 l 1.42254,-2.5372497 -1.42254,-0.04083 1.42254,0.04083 -3.738578,-0.107305 z" />
     <path
@@ -346,13 +341,6 @@
        id="fancyspoon"
        style="fill:#c8b7b7;stroke:#000000;stroke-width:0.0334832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 27.206878,36.535611 a 2.5954106,1.03678 0 0 0 -2.411484,0.653544 c -0.01966,-0.0034 -0.0397,-0.0055 -0.06028,-0.0055 h -8.651368 c -0.205408,0 -0.370767,0.173395 -0.370767,0.388786 0,0.21539 0.165359,0.388786 0.370767,0.388786 h 8.651367 c 0.02058,0 0.04059,-0.0022 0.06024,-0.0055 a 2.5954106,1.03678 0 0 0 2.411569,0.653499 2.5954106,1.03678 0 0 0 2.59541,-1.036748 2.5954106,1.03678 0 0 0 -2.59541,-1.036792 2.5954106,1.03678 0 0 1 -4.3e-5,0 z" />
-       <animateTransform id="m"
-         attributeName="transform"
-         attributeType="XML"
-         type="translate"
-         dur="10s"
-         values="0,0;95,43"
-         />
     <path
        style="fill:#00ffff;stroke-width:0.264583"
        id="path5335"
@@ -478,13 +466,6 @@
        style="opacity:0.91600001;fill:#000000;stroke-width:0.26458332" />
   </g>
 </svg>
-<script type="text/javascript">
-   function move(evt){
-      var svgobj=evt.target;
-        svgobj.style.opacity= 0.3;
-        svgobj.setAttribute ('x', 300);
-   }
-   console.log(svg);
-</script>
+
 </body>
 </html>
