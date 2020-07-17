@@ -7,42 +7,42 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
-   version="1.1"
-   id="svg8"
+   sodipodi:docname="Beakerwithliq.svg"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="Beakerwithliq.svg">
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 210 297"
+   height="297mm"
+   width="210mm">
   <defs
      id="defs2">
     <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="935.35331 : 99.682512 : 1"
-       inkscape:vp_y="-9.4054931 : -2.1093553 : 0"
-       inkscape:vp_z="-444.9433 : 100.07034 : 1"
+       id="perspective2392"
        inkscape:persp3d-origin="245.6706 : 99.980842 : 1"
-       id="perspective2392" />
+       inkscape:vp_z="-444.9433 : 100.07034 : 1"
+       inkscape:vp_y="-9.4054931 : -2.1093553 : 0"
+       inkscape:vp_x="935.35331 : 99.682512 : 1"
+       sodipodi:type="inkscape:persp3d" />
   </defs>
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.24748737"
-     inkscape:cx="-921.0287"
-     inkscape:cy="415.81142"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     inkscape:window-width="1624"
-     inkscape:window-height="1020"
-     inkscape:window-x="152"
+     inkscape:window-maximized="0"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-x="152"
+     inkscape:window-height="1020"
+     inkscape:window-width="1624"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer1"
+     inkscape:document-units="mm"
+     inkscape:cy="520.45356"
+     inkscape:cx="90.892444"
+     inkscape:zoom="0.49497474"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -56,20 +56,20 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
+     style="opacity:0.174;mix-blend-mode:normal"
      id="layer1"
-     style="opacity:0.174;mix-blend-mode:normal">
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
     <path
-       sodipodi:nodetypes="ccccccccc"
-       id="beaker"
-       style="fill:#00ffff;fill-rule:evenodd;stroke-width:0.999999"
+       transform="scale(0.26458333)"
        d="m 154.28516,325.71484 v 620 H 622.85742 V 442.10547 l 68.44141,-111.66797 -68.44141,-1.79688 68.44141,1.79688 -179.8711,-4.72266 z"
-       transform="scale(0.26458333)" />
+       style="fill:#00ffff;fill-rule:evenodd;stroke-width:2.64566932;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="beaker"
+       sodipodi:nodetypes="ccccccccc" />
     <path
-       sodipodi:nodetypes="sssssssss"
-       d="M 52.160714,159.50595 H 154.21435 c 5.86317,0 10.58334,4.72017 10.58334,10.58333 l 0,74.62589 c 0,5.86317 -0.1766,5.49058 -6.03976,5.50521 l -107.131755,0.26727 c -10.143424,0.0253 -10.336987,0.35792 -10.316063,-5.50521 l 0.267269,-74.89316 c 0.02092,-5.86312 4.720167,-10.58333 10.583333,-10.58333 z"
-       style="fill:#ff00ff;stroke-width:0.264583"
-       id="liquid" />
+       id="liquid"
+       style="fill:#1200ff;fill-opacity:1;stroke-width:0.7;stroke-miterlimit:4;stroke-dasharray:none"
+       d="M 51.782738,159.50595 H 153.83637 c 5.86317,0 10.58334,4.72017 10.58334,10.58333 v 74.62589 c 0,5.86317 -0.1766,5.49058 -6.03976,5.50521 l -107.131751,0.26727 c -10.143424,0.0253 -10.336987,0.35792 -10.316063,-5.50521 l 0.267269,-74.89316 c 0.02092,-5.86312 4.720167,-10.58333 10.583333,-10.58333 z"
+       sodipodi:nodetypes="sssssssss" />
   </g>
 </svg>
