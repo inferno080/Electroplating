@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 210 297"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="table.svg"
+   width="210mm"
    height="297mm"
-   width="210mm">
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8">
+  <sodipodi:namedview
+     inkscape:current-layer="svg8"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-11"
+     inkscape:window-x="-11"
+     inkscape:cy="766.81384"
+     inkscape:cx="279.72848"
+     inkscape:zoom="1.0078851"
+     showgrid="false"
+     id="namedview887"
+     inkscape:window-height="986"
+     inkscape:window-width="1920"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff" />
   <defs
      id="defs2" />
   <metadata
@@ -20,103 +44,104 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
+     transform="matrix(0.24774352,0,0,0.21345762,85.490488,239.42925)"
      id="layer1">
     <path
-       id="rect14"
+       style="fill:#552200;stroke-width:1"
+       d="m -1265.7148,293.94727 v 411.42968 h 551.42964 v 312.68755 h 151.17969 V 705.37695 H 1011.4277 v 304.11715 h 151.1817 V 705.37695 h 700.248 V 293.94727 Z"
        transform="scale(0.26458333)"
-       d="M -1265.7148 293.94727 L -1265.7148 705.37695 L -714.28516 705.37695 L -714.28516 1018.0645 L -563.10547 1018.0645 L -563.10547 705.37695 L 1011.4277 705.37695 L 1011.4277 1009.4941 L 1162.6094 1009.4941 L 1162.6094 705.37695 L 1862.8574 705.37695 L 1862.8574 293.94727 L -1265.7148 293.94727 z "
-       style="fill:#552200;stroke-width:0.99999994" />
+       id="table" />
     <rect
-       ry="0"
-       style="fill:#000000;stroke-width:0.26939389"
-       y="64.042984"
-       x="-343.20239"
-       height="13.854528"
+       id="rect16"
        width="846.66614"
-       id="rect16" />
+       height="13.854528"
+       x="-343.20239"
+       y="64.042984"
+       style="fill:#000000;stroke-width:0.269394"
+       ry="0" />
     <rect
-       y="108.0119"
-       x="-261.55951"
-       height="39.310001"
-       width="59.720001"
+       style="fill:#000000;stroke-width:0.264583"
        id="rect18"
-       style="fill:#000000;stroke-width:0.26458332" />
+       width="59.720001"
+       height="39.310001"
+       x="-261.55951"
+       y="108.0119" />
     <rect
-       y="108.01189"
-       x="-133.04762"
-       height="40"
-       width="60"
+       style="fill:#000000;stroke-width:0.264583"
        id="rect20"
-       style="fill:#000000;stroke-width:0.26458332" />
-    <rect
-       y="106.49998"
-       x="-18.142859"
-       height="40"
        width="60"
+       height="40"
+       x="-133.04762"
+       y="108.01189" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
        id="rect22"
-       style="fill:#000000;stroke-width:0.26458332" />
-    <rect
-       y="105.74404"
-       x="97.51786"
-       height="40"
        width="60"
+       height="40"
+       x="-18.142859"
+       y="106.49998" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
        id="rect24"
-       style="fill:#000000;stroke-width:0.26458332" />
-    <rect
-       y="102.72023"
-       x="217.71426"
-       height="44.601189"
        width="60"
-       id="rect26"
-       style="fill:#000000;stroke-width:0.26458332" />
-    <rect
-       y="105.80953"
-       x="344.71429"
        height="40"
+       x="97.51786"
+       y="105.74404" />
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect26"
        width="60"
+       height="44.601189"
+       x="217.71426"
+       y="102.72023" />
+    <rect
+       style="fill:#000000;stroke-width:0.312215"
        id="rect28"
-       style="fill:#000000;stroke-width:0.31221473" />
+       width="60"
+       height="40"
+       x="344.71429"
+       y="105.80953" />
     <circle
-       r="3.4017856"
-       cy="127.28869"
-       cx="128.88988"
+       style="fill:#552200;stroke-width:0.264583"
        id="path34"
-       style="fill:#ff0000;stroke-width:0.26458332" />
-    <circle
-       style="fill:#ff0000;stroke-width:0.26458332"
-       id="circle36"
-       cx="13.985121"
+       cx="128.88988"
        cy="127.28869"
        r="3.4017856" />
     <circle
        r="3.4017856"
-       cy="128.80058"
-       cx="-104.69939"
-       id="circle38"
-       style="fill:#ff0000;stroke-width:0.26458332" />
+       cy="127.28869"
+       cx="13.985121"
+       id="circle36"
+       style="fill:#552200;stroke-width:0.264583" />
     <circle
-       style="fill:#ff0000;stroke-width:0.26458332"
-       id="circle40"
-       cx="-230.94345"
-       cy="130.3125"
+       style="fill:#552200;stroke-width:0.264583"
+       id="circle38"
+       cx="-104.69939"
+       cy="128.80058"
        r="3.4017856" />
     <circle
        r="3.4017856"
-       cy="125.02083"
-       cx="245.30655"
-       id="circle44"
-       style="fill:#d40000;stroke-width:0.26458332" />
+       cy="130.3125"
+       cx="-230.94345"
+       id="circle40"
+       style="fill:#552200;stroke-width:0.264583" />
     <circle
-       r="3.4017856"
-       cy="125.77679"
-       cx="373.81845"
+       style="fill:#552200;stroke-width:0.264583"
+       id="circle44"
+       cx="245.30655"
+       cy="125.02083"
+       r="3.4017856" />
+    <circle
+       style="fill:#552200;stroke-width:0.264583"
        id="circle48"
-       style="fill:#ff0000;stroke-width:0.26458332" />
+       cx="373.81845"
+       cy="125.77679"
+       r="3.4017856" />
   </g>
   <g
      id="layer9" />
