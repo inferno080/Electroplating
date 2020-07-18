@@ -25,6 +25,20 @@
                 border-style: dotted;
                 text-align: center;
             }
+            .m{
+                display: none;
+            }
+
+             .blahh{
+               transform: scale(0);
+              
+
+            } 
+            .show{
+               transform: scale(1);
+
+            }
+
         </style>
     </head>
     <body style = "overflow: hidden; background-color: rgb(245, 243, 227);">
@@ -142,7 +156,7 @@
        transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" />
     <rect
        style="opacity:0.811502;fill:#ac9393;stroke:#000000;stroke-width:0.104712;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="metalplate"
+       id="metalplate" 
        width="3.399164"
        height="12.055428"
        x="9.8993244"
@@ -152,6 +166,8 @@
     <path
        d="m 44.952524,15.668305 9.927153,0.02605 c 0.444734,8.83e-4 0.808123,0.401234 0.814763,0.897027 l 0.04881,3.642623 c 0.0066,0.495783 -0.346065,0.89398 -0.790807,0.892805 l -9.927136,-0.02605 c -0.44475,-8.83e-4 -0.808132,-0.401243 -0.814772,-0.897026 l -0.04881,-3.642624 c -0.0066,-0.495783 0.346058,-0.89398 0.790799,-0.892806 z"
        style="fill:#e3dbdb;stroke-width:0.0141592"
+       id="box"
+        >
        id="box" onclick="f2();"> 
        <animateTransform id="lol"
        attributeName="transform"
@@ -163,6 +179,7 @@
        fill="freeze"
        begin="box.click"
        />
+       
     </path>
     <rect
        style="fill:#483737;stroke-width:0.0266807"
@@ -194,6 +211,7 @@
        restart="whenNotActive"
        fill="freeze"
        begin="box.click+2s"
+       
        />
 </rect>
     
@@ -229,15 +247,28 @@
          type="translate"
          dur="1s"
          values="0,0;100,63"
+         
          restart="whenNotActive"
          fill="freeze"
          begin="box.click"
          />
+         <discard begin="1s"></discard>
       </text>
     <path
        id="Battery"
-       style="opacity:0.853035;fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:0.174519;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       
+       style="opacity:1;fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:0.174519;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 26.199547,13.951818 8.695205,0.0044 c 0.0025,0 0.005,0.0018 0.005,0.0044 l 0.0066,7.587199 c 0,0.0026 -0.0017,0.0044 -0.005,0.0044 l -8.695189,-0.0044 c -0.0025,0 -0.0049,-0.0018 -0.005,-0.0044 l -0.0071,-7.587182 c 0,-0.0026 0.0017,-0.0044 0.005,-0.0044 z" />
+       <!-- <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="0s"
+       visibility="hidden"
+       opacity="0"
+       
+       /> -->
+       <!-- </path> -->
     <ellipse
        cy="19.585888"
        cx="28.158794"
@@ -255,7 +286,7 @@
        style="opacity:0.853035;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.104712;stroke-miterlimit:4;stroke-dasharray:none"
        transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" />
     <text
-       id="plusminus"
+       id="plusminus" class="blahh"
        y="18.591125"
        x="26.585714"
        style="font-style:normal;font-weight:normal;font-size:2.46267px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.0923497"
@@ -284,7 +315,8 @@
        d="m 8.8891114,59.823256 7.4679546,-6.236544 c 0.0017,-0.0018 0.0042,-0.0018 0.005,-6.53e-4 l 8.426669,4.603732 c 0.0017,7.08e-4 0.0016,0.0018 3e-6,0.0035 l -7.467945,6.23655 c -0.0017,0.0018 -0.0042,0.0018 -0.005,6.45e-4 l -8.4266684,-4.60381 c -0.00165,-7.15e-4 -0.00157,-0.0018 -4e-6,-0.0035 z" />
     <path
        style="display:none;opacity:1;fill:#00ffff;stroke:#000000;stroke-width:0.656527;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="heap2-6"
+       id="heap2-6" 
+       class="heap1"
        d="m 88.733488,126.95304 18.144852,25.87272 -31.478856,2.77754 z"
        transform="matrix(0.31000393,0.00558542,-0.01983386,0.08112902,76.602548,228.10265)" />
     <path
@@ -399,12 +431,18 @@
        attributeType="XML"
        type="translate"
        dur="1s"
-       values="0,0;95,63"
+        values="0,0;95,63" 
+       
        restart="whenNotActive"
        fill="freeze"
        additive="sum"
        type="scale"
        begin="liquid.click;beaker7.click"
+       
+       
+       />
+       
+       
        
        />
        f0()
@@ -435,20 +473,21 @@
        x="8.7015476"
        height="7.2945824"
        width="1.8539413"
-       id="metalplate-1"
+       id="metalplate-1" class="blahh"
        style="opacity:1;fill:#ac9393;fill-opacity:1;stroke:#000000;stroke-width:0.0398985;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        d="m 15.290789,13.111405 a 0.77485724,0.12691968 0 0 0 -0.766678,0.12689 0.77485724,0.12691968 0 0 0 0.497544,0.118509 v 5.372375 c 0,0.0016 0.0011,0.0028 0.0024,0.0035 h -0.0015 l 0.264793,0.491622 0.264844,-0.493781 h -0.0019 c 2.1e-4,-4.98e-4 6e-4,-7.96e-4 6e-4,-0.0013 v -5.370831 a 0.77485724,0.12691968 0 0 0 0.522969,-0.120053 0.77485724,0.12691968 0 0 0 -0.774843,-0.12689 0.77485724,0.12691968 0 0 0 -0.0082,0 z"
        style="opacity:0.674121;mix-blend-mode:normal;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.0398985;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="ironnail-8" />
+       id="ironnail-8" class="blahh" />
     <path
        style="fill:none;stroke:#ad0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 9.1778311,12.48214 C 21.497396,5.2444197 28.348215,19.607515 28.348215,19.607515"
-       id="redwire" />
+       id="redwire"  class="blahh"/>
     <path
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 16.063765,12.850593 c 13.796353,-0.613614 14.457811,6.804169 14.457811,6.804169"
-       id="blackwire" />
+       id="blackwire" class="blahh" />
+       
     <rect
        transform="matrix(-0.88346789,-0.46849172,0.47222417,-0.88147849,0,0)"
        ry="0.0016845957"
@@ -457,10 +496,12 @@
        height="1.4671481"
        width="0.33497185"
        id="clip2"
+       class="blahh"
        style="opacity:1;fill:#6c6753;fill-opacity:1;stroke:#000000;stroke-width:0.0498733;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <rect
        style="opacity:1;fill:#918a6f;fill-opacity:1;stroke:#000000;stroke-width:0.0621097;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="clip1"
+       class="blahh"
        width="0.30873117"
        height="1.4401823"
        x="12.867032"
@@ -470,6 +511,7 @@
       
        <path
        id="fancyspoon"
+       class="remove"
        style="fill:#c8b7b7;stroke:#000000;stroke-width:0.0334832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 27.206878,36.535611 a 2.5954106,1.03678 0 0 0 -2.411484,0.653544 c -0.01966,-0.0034 -0.0397,-0.0055 -0.06028,-0.0055 h -8.651368 c -0.205408,0 -0.370767,0.173395 -0.370767,0.388786 0,0.21539 0.165359,0.388786 0.370767,0.388786 h 8.651367 c 0.02058,0 0.04059,-0.0022 0.06024,-0.0055 a 2.5954106,1.03678 0 0 0 2.411569,0.653499 2.5954106,1.03678 0 0 0 2.59541,-1.036748 2.5954106,1.03678 0 0 0 -2.59541,-1.036792 2.5954106,1.03678 0 0 1 -4.3e-5,0 z" >
     
@@ -480,6 +522,7 @@
        type="translate"
        dur="1s"
        values="0,0;120,39;142,19"
+       translate= transform(160px)
        restart="whenNotActive"
        
        fill="freeze"
@@ -499,12 +542,9 @@
        id="path5335"
        d="m 111.57969,52.150547 -1e-5,-2.3e-5 2e-5,0 z"
        transform="matrix(0.10389037,0,0,0.11434104,16.063473,31.776828)" />
-    
-       
-       
-   
-       <path
-       id="bluepowder" 
+    <path
+       id="bluepowder"
+       class="blahh"
        style="fill:#00ffff;stroke:#000000;stroke-width:0.0251125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 28.81361,37.637191 c -0.957926,0.301849 -2.056797,0.517505 -2.93514,-0.02775 0.421796,-0.482116 0.909136,-1.032962 1.330931,-1.515079 z"
        >
@@ -654,11 +694,11 @@
     <path
        transform="matrix(0.09119404,0.00147731,-0.00583454,0.02145811,29.323374,55.177987)"
        d="m 88.733488,126.95304 18.144852,25.87272 -31.478856,2.77754 z"
-       id="heap2"
+       id="heap2" class="blahh"
        style="opacity:1;fill:#00ffff;stroke:#000000;stroke-width:0.65652698;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        style="opacity:1;fill:#00ffff;stroke:#000000;stroke-width:0.65652698;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="heap1"
+       id="heap1" class="blahh"
        d="m 88.733488,126.95304 18.144852,25.87272 -31.478856,2.77754 z"
        transform="matrix(0.09119404,0.00147731,-0.00583454,0.02145811,26.08159,55.152096)" />
     <rect
@@ -734,6 +774,14 @@
 
 
 <script src="thejs.js"> 
+document.getElementsById('remove').onclick=function(){
+   /* document.getElementById('fancyspoon');
+   var parent= fancyspoon.parentNode;
+   parent.removeChild(fancyspoon)
+ */
+ var sVg= document.getElementsId('fancyspoon');
+ document.body.removeChild(sVg);
+}
 </script>
     </body>
 </html>
