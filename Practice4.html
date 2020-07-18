@@ -25,9 +25,6 @@
                 border-style: dotted;
                 text-align: center;
             }
-            .m{
-                display: none;
-            }
         </style>
     </head>
     <body style = "overflow: hidden; background-color: rgb(245, 243, 227);">
@@ -43,24 +40,24 @@
             Yash is Hungry
         </div>
         <div class="slave">
-            Yash is Hungry
+            <p>Click on the weighning machine to empty the spatula and  measure the weight. We need exactly 39.9 grams.</p>
         </div>
-        <div class="slave">
-            Yash is Hungry
+        <div class="slave" id="fun5">
+            <p>Click on the CuSO4 Container to fill the spatula with crystals.</p>
         </div>
-        <div class="slave">
-            Yash is Hungry
+        <div class="slave" id="fun4">
+            <p>DoubleClick on the spatula and bring it to the table.</p>
         </div>
         
-        <div class="slave">
-            Yash is Hungry
+        <div class="slave" id="fun3">
+            <p>DoubleClick on the weighning machine to bring it to the worktable.</p>
         </div>
 
-        <div class="slave">
-            Save me Yash is gonna delete me later
+        <div class="slave" id="fun2">
+           <p>Take out the CuSO4 container from the shelf and place it on the table. DoubleClick on the container.</p>
         </div>
-        <div class="slave master">
-            Take out the beaker from the shelf and fill it with 250 mL water. 
+        <div class="slave master" id = "fun1">
+            <p>Take out the beaker from the shelf and fill it with 250 mL water. DoubleClick on the beaker to bring it to the worktable.</p>
         </div>
 
         <?xml version="1.0" encoding="UTF-8" standalone="no"?>
@@ -494,5 +491,7 @@
 <div style = "margin-top: -1400px; float:right; position: relative;"><img src="PT.jpg"></div>
 <div style = "margin-top: -1200px; float:right; position: relative;max-width: 50%; height: auto; margin-right: 150px;"><img src="danger2.png"></div>
 <div style = "margin-top: -1200px; float:right; position: relative;max-width: 50%; height: auto; margin-right: 80px;"><img src="flame2.png"></div>
+
+<script src="thejs.js"></script>
     </body>
 </html>
