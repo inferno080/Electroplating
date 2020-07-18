@@ -211,6 +211,7 @@
        restart="whenNotActive"
        fill="freeze"
        begin="box.click+2s"
+       
        />
 </rect>
     
@@ -246,6 +247,7 @@
          type="translate"
          dur="1s"
          values="0,0;100,63"
+         
          restart="whenNotActive"
          fill="freeze"
          begin="box.click"
@@ -429,12 +431,13 @@
        attributeType="XML"
        type="translate"
        dur="1s"
-       values="0,0;95,63"
+        values="0,0;95,63" 
+       
        restart="whenNotActive"
        fill="freeze"
        additive="sum"
        type="scale"
-       begin="liquid.click"
+       begin="liquid.click;beaker7.click"
        
        
        />
@@ -505,7 +508,8 @@
        y="9.3615971"
        ry="0.0016536332"
        transform="matrix(0.97653753,0.21534726,-0.33919066,0.94071765,0,0)" />
-    <path
+      
+       <path
        id="fancyspoon"
        class="remove"
        style="fill:#c8b7b7;stroke:#000000;stroke-width:0.0334832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -513,15 +517,26 @@
     
        <animateTransform id="beaker-7"
        attributeName="transform"
+       
        attributeType="XML"
        type="translate"
        dur="1s"
-       values="0,0;80,30"
+       values="0,0;120,39;142,19"
+       translate= transform(160px)
        restart="whenNotActive"
+       
        fill="freeze"
        begin="fancyspoon.click"
+       
        />
+       
    </path>
+
+ 
+
+   
+
+   
        <path
        style="fill:#00ffff;stroke-width:0.264583"
        id="path5335"
@@ -531,20 +546,25 @@
        id="bluepowder"
        class="blahh"
        style="fill:#00ffff;stroke:#000000;stroke-width:0.0251125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 28.81361,37.637191 c -0.957926,0.301849 -2.056797,0.517505 -2.93514,-0.02775 0.421796,-0.482116 0.909136,-1.032962 1.330931,-1.515079 z">
+       d="m 28.81361,37.637191 c -0.957926,0.301849 -2.056797,0.517505 -2.93514,-0.02775 0.421796,-0.482116 0.909136,-1.032962 1.330931,-1.515079 z"
+       >
     
        <animateTransform id="beaker-7"
        attributeName="transform"
        attributeType="XML"
        type="translate"
        dur="1s"
-       values="0,0;80,30"
+       values="0,0;120,39"
        restart="whenNotActive"
        fill="freeze"
        begin="fancyspoon.click"
        
+       
        />
-    </path>
+       
+
+       </path>
+       <discard begin="1s"/>
 
        <rect
        ry="0"
@@ -552,29 +572,85 @@
        x="28.377842"
        height="3.7713795"
        width="13.001661"
-       id="weighingmachine-7"
-       style="fill:#e3dbdb;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
+       id="weighingmachine7"
+       style="fill:#e3dbdb;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+    
+       <animateTransform id="beaker-7"
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1s"
+       values="0,0;142,19"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
+       
+       
+       />
+       </rect>
+    
+       <rect
        y="61.624977"
        x="31.5466"
        height="1.3913828"
        width="7.6393943"
        id="Display"
-       style="fill:#536c53;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <rect
+       style="fill:#536c53;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" >
+    
+       <animateTransform id="beaker-7"
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1s"
+       values="0,0;142,19"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
+       
+       
+       />
+       </rect>
+
+       <rect
        y="64.533127"
        x="29.946344"
        height="0.95199871"
        width="0.88146853"
-       id="stand2-6"
-       style="fill:#000000;stroke-width:0.0256701" />
+       id="stand26"
+       style="fill:#000000;stroke-width:0.0256701">
+       <animateTransform id="beaker-7"
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1s"
+       values="0,0;142,19"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
+       
+       
+       />
+       </rect>
     <rect
        style="fill:#000000;stroke-width:0.0256701"
        id="stand1"
        width="0.88146853"
        height="0.95199871"
        x="38.192005"
-       y="64.265862" />
+       y="64.265862">
+       <animateTransform id="beaker-7"
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1s"
+       values="0,0;142,19"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
+       
+       
+       />
+       </rect>
     <rect
        onclick="Heyy"
        y="49.995987"
@@ -582,11 +658,39 @@
        height="9.9959869"
        width="10.467439"
        id="shield"
-       style="opacity:0.43000004;fill:#aaeeff;stroke:#000000;stroke-width:0.0388083;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:0.43000004;fill:#aaeeff;stroke:#000000;stroke-width:0.0388083;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+       <animateTransform id="beaker-7"
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1s"
+       values="0,0;142,19"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
+       
+       
+       />
+       </rect>
     <path
        d="m 31.523243,59.111892 6.669944,0.008 -0.496195,0.71908 h -5.615523 z"
        style="opacity:1;fill:#c8b7b7;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="dish" />
+       id="dish" >
+       <animateTransform id="beaker-7"
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="1s"
+       values="0,0;142,19"
+       restart="whenNotActive"
+       fill="freeze"
+       begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
+       
+       
+       
+       
+       />
+      </path>
     <path
        transform="matrix(0.09119404,0.00147731,-0.00583454,0.02145811,29.323374,55.177987)"
        d="m 88.733488,126.95304 18.144852,25.87272 -31.478856,2.77754 z"
@@ -666,6 +770,8 @@
 <div style = "margin-top: -1400px; float:right; position: relative;"><img src="PT.jpg"></div>
 <div style = "margin-top: -1200px; float:right; position: relative;max-width: 50%; height: auto; margin-right: 150px;"><img src="danger2.png"></div>
 <div style = "margin-top: -1200px; float:right; position: relative;max-width: 50%; height: auto; margin-right: 80px;"><img src="flame2.png"></div>
+
+
 
 <script src="thejs.js"> 
 document.getElementsById('remove').onclick=function(){
