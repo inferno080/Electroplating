@@ -1,18 +1,78 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title>final</title>
-    <style>
-        #main{
-            height:1400;
-            width:1080;
-        }
+<html>
+    <head>
+        <title>Circle</title>
+        <style>
+            #main{
+                height:1400;
+                width:1080;
+                padding-top:100px;
+
+            }
+            .master{
+                height: 90px; 
+                width: 700px;
+                margin-left: 300px;
+                position: relative;
+                z-index: 0;
+            }
+
+            .slave{
+                height: 90px; 
+                width: 700px;
+                margin-left: 300px;
+                position: absolute;
+                background-color:rgb(238, 236, 236);
+                border-style: dotted;
+                text-align: center;
+            }
+            .m{
+                display: none;
+            }
+
+             .blahh{
+               transform: scale(0);
+
+            }
+            .heap{
+               
+            }
+
+        </style>
+    </head>
+    <body style = "overflow: hidden; background-color: rgb(245, 243, 227);">
+
+     <div class="slave">
+            Hello world
+        </div>
+
+        <div class="slave">
+            Yash is Hungry
+        </div>
+        <div class="slave">
+            Yash is Hungry
+        </div>
+        <div class="slave">
+            Yash is Hungry
+        </div>
+        <div class="slave">
+            Yash is Hungry
+        </div>
+        <div class="slave">
+            Yash is Hungry
+        </div>
         
-        
-    </style>
-    
-</head>
-<body style="overflow: hidden;">
-    <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+        <div class="slave">
+            Yash is Hungry
+        </div>
+
+        <div class="slave">
+            Save me Yash is gonna delete me later
+        </div>
+        <div class="slave master">
+            Take out the beaker from the shelf and fill it with 250 mL water. 
+        </div>
+
+        <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -84,19 +144,7 @@
     <path
        d="m 44.952524,15.668305 9.927153,0.02605 c 0.444734,8.83e-4 0.808123,0.401234 0.814763,0.897027 l 0.04881,3.642623 c 0.0066,0.495783 -0.346065,0.89398 -0.790807,0.892805 l -9.927136,-0.02605 c -0.44475,-8.83e-4 -0.808132,-0.401243 -0.814772,-0.897026 l -0.04881,-3.642624 c -0.0066,-0.495783 0.346058,-0.89398 0.790799,-0.892806 z"
        style="fill:#e3dbdb;stroke-width:0.0141592"
-       id="box" onclick="alert('You have clicked the circle.')">
-       <animateTransform id="lol"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;100,63"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="box.click"
-       
-       />
-    </path>
+       id="box" />
     <rect
        style="fill:#483737;stroke-width:0.0266807"
        id="lid"
@@ -105,44 +153,11 @@
        x="44.202553"
        y="14.339613"
        ry="0.016741097"
-       transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)">
-       <animateTransform id="beaker-7"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;100,63"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="box.click"
-       />
-       gogo()
-       <animateTransform id="beaker-7"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="100,63;110,63"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="box.click+2s"
-       />
-</rect>
+       transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" />
     <path
        d="m 46.834558,17.813801 6.48973,0.0035 0.0013,1.515221 -6.489712,-0.0035 z"
        style="fill:#ffffff;stroke-width:0.0251133"
-       id="Sticker" >
-       <animateTransform id="beaker-7"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;100,63"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="box.click"
-       />
-    </path>
+       id="Sticker" />
     <text
        id="CuSO4"
        y="18.682291"
@@ -153,9 +168,7 @@
          style="font-size:0.86192799px;stroke-width:0.0923497"
          y="18.682291"
          x="47.178394"
-         id="tspan867">CuSO4.5H2O</tspan>
-         
-      </text>
+         id="tspan867">CuSO4.5H2O</tspan></text>
     <path
        id="Battery"
        style="opacity:0.853035;fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:0.174519;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -195,19 +208,7 @@
        x="39.358925"
        y="24.306028"
        ry="0.27261069"
-       transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" >
-       <animateTransform id="beaker-7"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;95,63"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="fancyspoon.click + 2s"
-       />
-</rect>
-       
+       transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" />
     <path
        id="ironnail"
        style="opacity:0.674121;mix-blend-mode:normal;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.139616;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -325,41 +326,11 @@
     <path
        id="beaker-7"
        style="opacity:0.271566;mix-blend-mode:normal;fill:#00ffff;fill-rule:evenodd;stroke:#000000;stroke-width:0.0698225;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 7.365189,7.4662763 V 21.553533 h 9.739162 V 10.110831 l 1.42254,-2.5372497 -1.42254,-0.04083 1.42254,0.04083 -3.738578,-0.107305 z">
-    
-       <animateTransform 
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;95,63"
-       restart="whenNotActive"
-       fill="freeze"
-       additive="sum"
-       type="scale"
-       begin="0s"
-       opacity="0"
-       
-       />
-</path>
-    
-    
+       d="M 7.365189,7.4662763 V 21.553533 h 9.739162 V 10.110831 l 1.42254,-2.5372497 -1.42254,-0.04083 1.42254,0.04083 -3.738578,-0.107305 z" />
     <path
        d="M 8.2488776,14.213001 H 16.22442 c 0.458209,0 0.827093,0.381323 0.827093,0.854987 v 6.028736 c 0,0.473661 -0.0138,0.443563 -0.47201,0.444744 l -8.3723997,0.02159 c -0.7927143,0.002 -0.8078414,0.02891 -0.8062061,-0.444744 l 0.020887,-6.050328 c 0.00164,-0.47366 0.3688836,-0.854987 0.8270933,-0.854987 z"
        style="opacity:0.122;mix-blend-mode:normal;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.039628;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="liquid">
-       <animateTransform 
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;95,63"
-       
-       fill="freeze"
-       begin="liquid.click"
-       additive="sum"
-       />
-    </path>
+       id="liquid" />
     <rect
        ry="0.0016826894"
        y="11.933619"
@@ -401,32 +372,7 @@
     <path
        id="fancyspoon"
        style="fill:#c8b7b7;stroke:#000000;stroke-width:0.0334832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 27.206878,36.535611 a 2.5954106,1.03678 0 0 0 -2.411484,0.653544 c -0.01966,-0.0034 -0.0397,-0.0055 -0.06028,-0.0055 h -8.651368 c -0.205408,0 -0.370767,0.173395 -0.370767,0.388786 0,0.21539 0.165359,0.388786 0.370767,0.388786 h 8.651367 c 0.02058,0 0.04059,-0.0022 0.06024,-0.0055 a 2.5954106,1.03678 0 0 0 2.411569,0.653499 2.5954106,1.03678 0 0 0 2.59541,-1.036748 2.5954106,1.03678 0 0 0 -2.59541,-1.036792 2.5954106,1.03678 0 0 1 -4.3e-5,0 z">
-       <animateTransform id="beaker-7"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;80,30"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="fancyspoon.click"
-       />
-       <path
-       id="fancyspoon"
-       style="fill:#c8b7b7;stroke:#000000;stroke-width:0.0334832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 27.206878,36.535611 a 2.5954106,1.03678 0 0 0 -2.411484,0.653544 c -0.01966,-0.0034 -0.0397,-0.0055 -0.06028,-0.0055 h -8.651368 c -0.205408,0 -0.370767,0.173395 -0.370767,0.388786 0,0.21539 0.165359,0.388786 0.370767,0.388786 h 8.651367 c 0.02058,0 0.04059,-0.0022 0.06024,-0.0055 a 2.5954106,1.03678 0 0 0 2.411569,0.653499 2.5954106,1.03678 0 0 0 2.59541,-1.036748 2.5954106,1.03678 0 0 0 -2.59541,-1.036792 2.5954106,1.03678 0 0 1 -4.3e-5,0 z">
-       <animateTransform id="beaker-7"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;80,30"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="fancyspoon.click"
-       />
-    </path>
+       d="m 27.206878,36.535611 a 2.5954106,1.03678 0 0 0 -2.411484,0.653544 c -0.01966,-0.0034 -0.0397,-0.0055 -0.06028,-0.0055 h -8.651368 c -0.205408,0 -0.370767,0.173395 -0.370767,0.388786 0,0.21539 0.165359,0.388786 0.370767,0.388786 h 8.651367 c 0.02058,0 0.04059,-0.0022 0.06024,-0.0055 a 2.5954106,1.03678 0 0 0 2.411569,0.653499 2.5954106,1.03678 0 0 0 2.59541,-1.036748 2.5954106,1.03678 0 0 0 -2.59541,-1.036792 2.5954106,1.03678 0 0 1 -4.3e-5,0 z" />
     <path
        style="fill:#00ffff;stroke-width:0.264583"
        id="path5335"
@@ -435,20 +381,8 @@
     <path
        id="bluepowder"
        style="fill:#00ffff;stroke:#000000;stroke-width:0.0251125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 28.81361,37.637191 c -0.957926,0.301849 -2.056797,0.517505 -2.93514,-0.02775 0.421796,-0.482116 0.909136,-1.032962 1.330931,-1.515079 z">
- 
-       <animateTransform id="bluepowder"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;80,30"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="fancyspoon.click"
-       />
-    </path>
-       <rect
+       d="m 28.81361,37.637191 c -0.957926,0.301849 -2.056797,0.517505 -2.93514,-0.02775 0.421796,-0.482116 0.909136,-1.032962 1.330931,-1.515079 z" />
+    <rect
        ry="0"
        y="60.22263"
        x="28.377842"
@@ -564,12 +498,8 @@
        style="opacity:0.91600001;fill:#000000;stroke-width:0.26458332" />
   </g>
 </svg>
-<script>
-
-    function gogo(){
-        alert("yash is hungry");
-    }
-</script>
-
+<div style = "margin-top: -1400px; float:right; position: relative;"><img src="PT.jpg"></div>
+<div style = "margin-top: -1200px; float:right; position: relative;max-width: 50%; height: auto; margin-right: 150px;"><img src="danger2.png"></div>
+<div style = "margin-top: -1200px; float:right; position: relative;max-width: 50%; height: auto; margin-right: 80px;"><img src="flame2.png"></div>
     </body>
 </html>
