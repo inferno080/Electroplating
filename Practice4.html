@@ -250,6 +250,7 @@
          fill="freeze"
          begin="box.click"
          />
+         <discard begin="1s"></discard>
       </text>
     <path
        id="Battery"
@@ -435,6 +436,11 @@
        type="scale"
        begin="liquid.click"
        
+       
+       />
+       
+       
+       
        />
        f0()
       </path>
@@ -501,6 +507,7 @@
        transform="matrix(0.97653753,0.21534726,-0.33919066,0.94071765,0,0)" />
     <path
        id="fancyspoon"
+       class="remove"
        style="fill:#c8b7b7;stroke:#000000;stroke-width:0.0334832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 27.206878,36.535611 a 2.5954106,1.03678 0 0 0 -2.411484,0.653544 c -0.01966,-0.0034 -0.0397,-0.0055 -0.06028,-0.0055 h -8.651368 c -0.205408,0 -0.370767,0.173395 -0.370767,0.388786 0,0.21539 0.165359,0.388786 0.370767,0.388786 h 8.651367 c 0.02058,0 0.04059,-0.0022 0.06024,-0.0055 a 2.5954106,1.03678 0 0 0 2.411569,0.653499 2.5954106,1.03678 0 0 0 2.59541,-1.036748 2.5954106,1.03678 0 0 0 -2.59541,-1.036792 2.5954106,1.03678 0 0 1 -4.3e-5,0 z" >
     
@@ -661,6 +668,14 @@
 <div style = "margin-top: -1200px; float:right; position: relative;max-width: 50%; height: auto; margin-right: 80px;"><img src="flame2.png"></div>
 
 <script src="thejs.js"> 
+document.getElementsById('remove').onclick=function(){
+   /* document.getElementById('fancyspoon');
+   var parent= fancyspoon.parentNode;
+   parent.removeChild(fancyspoon)
+ */
+ var sVg= document.getElementsId('fancyspoon');
+ document.body.removeChild(sVg);
+}
 </script>
     </body>
 </html>
