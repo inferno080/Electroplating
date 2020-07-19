@@ -131,7 +131,7 @@
         t= t+1;
         if (t==1){ f5();}
     }
-    function callit(){
+    /* function callit(){
         element= document.getElementById('fancyspoon2');
         svg.removeChild('fancyspoon')
-    }
+    } */
