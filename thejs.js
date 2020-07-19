@@ -40,7 +40,7 @@
             setInterval(function() {
                 p = p + 1;
                 if (p==1){
-                document.getElementById("heap1").style.display="block";
+                document.getElementById("bluepowder2").style.display="block";
                 document.getElementById("fancyspoon2").style.display="block";
                 document.getElementById("fancyspoon").style.display="none";
                 }
@@ -59,9 +59,13 @@
         c= c+1;
         if (c==5){
     document.getElementById("fun5").style.display="none";
-    document.getElementById("thirtynine").style.display="block";
-    document.getElementById("fancyspoon2").style.display= "none";
-document.getElementById("fancyspoon3").style.display="none" ;}
+    setTimeout(function(){
+        document.getElementById("zero").style.display="none";
+        document.getElementById("thirtynine").style.display="block";
+        document.getElementById("fancyspoon2").style.display= "none";
+        document.getElementById("fancyspoon3").style.display="block" ;
+    }, (1000))
+}
         
 
         else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
