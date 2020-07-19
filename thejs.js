@@ -1,4 +1,5 @@
    var c = 0;
+   var t = 0;
   
   function f1() 
     {
@@ -30,10 +31,16 @@
     }
 
     function f4() 
-    {
+    {   
         c= c+1;
         if (c==4){
-    document.getElementById("fun4").style.display="none";}
+            delayInMilliseconds = 1000;
+            document.getElementById("fun4").style.display="none";
+            setTimeout(function() {
+                document.getElementById("bluepowder").style.display="block";
+                document.getElementById("fancyspoon2").style.display="block";
+                document.getElementById("fancyspoon").style.display="none";
+              }, delayInMilliseconds);}
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
     }
 
@@ -42,8 +49,9 @@
         c= c+1;
         if (c==5){
     document.getElementById("fun5").style.display="none";}
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
-    }
+
+        else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+        }
 
     function f6() 
     {
@@ -110,5 +118,6 @@
 
     function add1()
     {
-        document.getElementById("bluepowder").style.display="block";
+        t= t+1;
+        if (t==1){ f5();}
     }
