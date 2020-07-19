@@ -78,6 +78,9 @@
     document.getElementById("fun6").style.display="none";
     document.getElementById("bluepowder").style.display="block";
     document.getElementById("bluepowder2").style.display="none";
+
+document.getElementById("thirtynine").style.display="none";
+document.getElementById("zero").style.display="block";
     setTimeout(function(){
         document.getElementById("fancyspoon3").style.display="none";
         document.getElementById("bluepowder").style.display="none";
@@ -115,19 +118,30 @@
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
     }
 
-    function f10() 
+    function f10()
     {
         c= c+1;
-        if (c==10){
-    document.getElementById("fun10").style.display="none";}
+        if (c==11){
+            document.getElementById("ironnail-8").style.display="block";
+            document.getElementById("blackwire").style.display="block";
+            document.getElementById("clip1").style.display="block";
+            document.getElementById("ironnail").style.display="none";
+            document.getElementById("fun10").style.display="none";}
+
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
     }
 
     function f11() 
     {
         c= c+1;
-        if (c==11){
-    document.getElementById("fun11").style.display="none";}
+        if (c==10){
+            document.getElementById("metalplate-1").style.display="block";
+            document.getElementById("redwire").style.display="block";
+            document.getElementById("clip2").style.display="block";
+            document.getElementById("metalplate").style.display="none";
+            document.getElementById("fun11").style.display="none";
+            setInterval(function(){document.getElementById("ironnail").style.display="block";}, (1000))
+    }
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
     }
 
@@ -148,8 +162,7 @@
 
     function add1()
     {
-        t= t+1;
-        if (t==1){ f5();}
+       f12();
     }
     /* function callit(){
         element= document.getElementById('fancyspoon2');
