@@ -36,12 +36,42 @@
             } 
             .show{
                transform: scale(1);
-
             }
+
+           @keyframes yay{
+               0%{
+                  transform: 
+               translate(100px,63px);
+               } 
+               100%{
+                  transform: translate(142px,29px);
+               } 
+            }
+            .move-around .moveit{
+               animation: yay 5s infinite;
+            }
+   .colours{
+  
+  background: red;
+  position: relative;
+  animation: mymove 3s;
+  animation-delay: 2s;
+  animation-fill-mode: backwards;
+}
+
+@keyframes mymove {
+  from {top: 0px; background-color: yellow;}
+  to {top: 200px;}
+}
 
         </style>
     </head>
     <body style = "overflow: hidden; background-color: rgb(245, 243, 227);">
+
+      <div class='buttons'>
+         <button data-add="move-around"> move spatula
+         </button>
+      </div>
 
      <div class="slave">
             Hello world
@@ -247,7 +277,7 @@
          type="translate"
          dur="1s"
          values="0,0;100,63"
-         
+
          restart="whenNotActive"
          fill="freeze"
          begin="box.click"
@@ -258,17 +288,18 @@
        id="Battery"
        
        style="opacity:1;fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:0.174519;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 26.199547,13.951818 8.695205,0.0044 c 0.0025,0 0.005,0.0018 0.005,0.0044 l 0.0066,7.587199 c 0,0.0026 -0.0017,0.0044 -0.005,0.0044 l -8.695189,-0.0044 c -0.0025,0 -0.0049,-0.0018 -0.005,-0.0044 l -0.0071,-7.587182 c 0,-0.0026 0.0017,-0.0044 0.005,-0.0044 z" />
-       <!-- <animateTransform 
+       d="m 26.199547,13.951818 8.695205,0.0044 c 0.0025,0 0.005,0.0018 0.005,0.0044 l 0.0066,7.587199 c 0,0.0026 -0.0017,0.0044 -0.005,0.0044 l -8.695189,-0.0044 c -0.0025,0 -0.0049,-0.0018 -0.005,-0.0044 l -0.0071,-7.587182 c 0,-0.0026 0.0017,-0.0044 0.005,-0.0044 z" >
+       <animateTransform 
        attributeName="transform"
        attributeType="XML"
        type="translate"
-       dur="0s"
-       visibility="hidden"
-       opacity="0"
+       dur="2s"
+       fill="freeze"
+       values="0,0;95,63"
+       begin="Battery.click"
        
-       /> -->
-       <!-- </path> -->
+       /> 
+   </path>
     <ellipse
        cy="19.585888"
        cx="28.158794"
@@ -276,7 +307,18 @@
        style="opacity:0.853035;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.104712;stroke-miterlimit:4;stroke-dasharray:none"
        transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)"
        rx="0.51495945"
-       ry="0.50751376" />
+       ry="0.50751376" >
+       <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="2s"
+       fill="freeze"
+       values="0,0;95,63"
+       begin="Battery.click"
+       
+       /> 
+    </ellipse>
     <ellipse
        ry="0.49114233"
        rx="0.51495945"
@@ -284,7 +326,18 @@
        cx="30.285072"
        id="negativeterminal"
        style="opacity:0.853035;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.104712;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" />
+       transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" >
+       <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="2s"
+       fill="freeze"
+       values="0,0;95,63"
+       begin="Battery.click"
+       
+       /> 
+    </ellipse>
     <text
        id="plusminus" class="blahh"
        y="18.591125"
@@ -295,7 +348,18 @@
          style="font-size:2.46267px;stroke-width:0.0923497"
          y="18.591125"
          x="26.585714"
-         id="tspan887">+ -</tspan></text>
+         id="tspan887">+ -</tspan>
+         <animateTransform 
+         attributeName="transform"
+         attributeType="XML"
+         type="translate"
+         dur="2s"
+         fill="freeze"
+         values="0,0;95,63"
+         begin="Battery.click"
+         
+         /> 
+      </text>
     <rect
        style="opacity:0.213;fill:#80e5ff;stroke:#000000;stroke-width:0.139616;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="glassrod"
@@ -304,7 +368,18 @@
        x="39.358925"
        y="24.306028"
        ry="0.27261069"
-       transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" />
+       transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" >
+       <animateTransform id="abcde"
+         attributeName="transform"
+         attributeType="XML"
+         type="translate"
+         dur="7s"
+         fill="freeze"
+         begin="glassrod.click"
+         values="0,0;68,39;64,39;72,39;64,39;72,39"
+         />
+         </rect>
+         
     <path
        id="ironnail"
        style="opacity:0.674121;mix-blend-mode:normal;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.139616;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -451,7 +526,8 @@
        <path
        d="M 8.2488776,14.213001 H 16.22442 c 0.458209,0 0.827093,0.381323 0.827093,0.854987 v 6.028736 c 0,0.473661 -0.0138,0.443563 -0.47201,0.444744 l -8.3723997,0.02159 c -0.7927143,0.002 -0.8078414,0.02891 -0.8062061,-0.444744 l 0.020887,-6.050328 c 0.00164,-0.47366 0.3688836,-0.854987 0.8270933,-0.854987 z"
        style="opacity:0.122;mix-blend-mode:normal;fill:#000080;fill-opacity:1;stroke:#000000;stroke-width:0.039628;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="liquid" onclick="f1()">
+       id="liquid" class="colours"
+       onclick="f1()">
       
        <animateTransform 
        attributeName="transform"
@@ -511,9 +587,11 @@
       
        <path
        id="fancyspoon"
-       class="remove"
+       onclick="callagain()"
+       class="move"
        style="fill:#c8b7b7;stroke:#000000;stroke-width:0.0334832;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 27.206878,36.535611 a 2.5954106,1.03678 0 0 0 -2.411484,0.653544 c -0.01966,-0.0034 -0.0397,-0.0055 -0.06028,-0.0055 h -8.651368 c -0.205408,0 -0.370767,0.173395 -0.370767,0.388786 0,0.21539 0.165359,0.388786 0.370767,0.388786 h 8.651367 c 0.02058,0 0.04059,-0.0022 0.06024,-0.0055 a 2.5954106,1.03678 0 0 0 2.411569,0.653499 2.5954106,1.03678 0 0 0 2.59541,-1.036748 2.5954106,1.03678 0 0 0 -2.59541,-1.036792 2.5954106,1.03678 0 0 1 -4.3e-5,0 z" >
+       d="m 27.206878,36.535611 a 2.5954106,1.03678 0 0 0 -2.411484,0.653544 c -0.01966,-0.0034 -0.0397,-0.0055 -0.06028,-0.0055 h -8.651368 c -0.205408,0 -0.370767,0.173395 -0.370767,0.388786 0,0.21539 0.165359,0.388786 0.370767,0.388786 h 8.651367 c 0.02058,0 0.04059,-0.0022 0.06024,-0.0055 a 2.5954106,1.03678 0 0 0 2.411569,0.653499 2.5954106,1.03678 0 0 0 2.59541,-1.036748 2.5954106,1.03678 0 0 0 -2.59541,-1.036792 2.5954106,1.03678 0 0 1 -4.3e-5,0 z" 
+       onclick="callit()">
     
        <animateTransform id="beaker-7"
        attributeName="transform"
@@ -774,14 +852,20 @@
 
 
 <script src="thejs.js"> 
-document.getElementsById('remove').onclick=function(){
-   /* document.getElementById('fancyspoon');
-   var parent= fancyspoon.parentNode;
-   parent.removeChild(fancyspoon)
- */
- var sVg= document.getElementsId('fancyspoon');
- document.body.removeChild(sVg);
+/* var btn = document.querySelectorAll(".buttons")
+var count=0;
+function movespatula(){
+   count++;
 }
+if(count==1 || count==2){
+
+
+}
+document.getElementsById('fancyspoon').onclick=function(){
+   
+   
+} */
+
 </script>
     </body>
 </html>
