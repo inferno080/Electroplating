@@ -47,7 +47,7 @@
                 if (p==2){
                     document.getElementById("zero").style.display="none";
                     document.getElementById("thirtynine").style.display="block";
-                    //document.getElementById("fancyspoon2").style.display= "none";
+                    document.getElementById("fancyspoon2").style.display= "none"; */
                 }
               }, delayInMilliseconds);
             }
@@ -131,3 +131,7 @@
         t= t+1;
         if (t==1){ f5();}
     }
+    /* function callit(){
+        element= document.getElementById('fancyspoon2');
+        svg.removeChild('fancyspoon')
+    } */
