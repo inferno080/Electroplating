@@ -40,14 +40,14 @@
             setInterval(function() {
                 p = p + 1;
                 if (p==1){
-                document.getElementById("bluepowder").style.display="block";
+                document.getElementById("heap1").style.display="block";
                 document.getElementById("fancyspoon2").style.display="block";
                 document.getElementById("fancyspoon").style.display="none";
                 }
                 if (p==2){
-                    document.getElementById("zero").style.display="none";
-                    document.getElementById("thirtynine").style.display="block";
-                    document.getElementById("fancyspoon2").style.display= "none"; */
+                   // document.getElementById("zero").style.display="none";
+                    //document.getElementById("thirtynine").style.display="block";
+                   // document.getElementById("fancyspoon2").style.display= "none"; 
                 }
               }, delayInMilliseconds);
             }
