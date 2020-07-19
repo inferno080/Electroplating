@@ -19,8 +19,13 @@
     function f3() 
     {
         c= c+1;
+        delayInMilliseconds= 1000;
         if (c==3){
-    document.getElementById("fun3").style.display="none";}
+    document.getElementById("fun3").style.display="none";
+    setTimeout(function() {
+        document.getElementById("zero").style.display="block";
+      }, delayInMilliseconds);
+}
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
     }
 
