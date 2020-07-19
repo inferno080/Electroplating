@@ -55,10 +55,14 @@
     }
 
     function f5() 
-    {
+    {  
         c= c+1;
         if (c==5){
-    document.getElementById("fun5").style.display="none";}
+    document.getElementById("fun5").style.display="none";
+    document.getElementById("thirtynine").style.display="block";
+    document.getElementById("fancyspoon2").style.display= "none";
+document.getElementById("fancyspoon3").style.display="none" ;}
+        
 
         else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
         }
