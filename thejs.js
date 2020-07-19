@@ -22,10 +22,10 @@
         c= c+1;
         delayInMilliseconds= 1000;
         if (c==3){
-    document.getElementById("fun3").style.display="none";
-    setTimeout(function() {
-        document.getElementById("zero").style.display="block";
-      }, delayInMilliseconds);
+            document.getElementById("fun3").style.display="none";
+            setTimeout(function() {
+                    document.getElementById("zero").style.display="block";
+                    }, delayInMilliseconds);
 }
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
     }
@@ -33,14 +33,24 @@
     function f4() 
     {   
         c= c+1;
+        var p = 0;
         if (c==4){
             delayInMilliseconds = 1000;
             document.getElementById("fun4").style.display="none";
-            setTimeout(function() {
+            setInterval(function() {
+                p = p + 1;
+                if (p==1){
                 document.getElementById("bluepowder").style.display="block";
                 document.getElementById("fancyspoon2").style.display="block";
                 document.getElementById("fancyspoon").style.display="none";
-              }, delayInMilliseconds);}
+                }
+                if (p==2){
+                    document.getElementById("zero").style.display="none";
+                    document.getElementById("thirtynine").style.display="block";
+                    //document.getElementById("fancyspoon2").style.display= "none";
+                }
+              }, delayInMilliseconds);
+            }
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
     }
 
