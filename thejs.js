@@ -80,7 +80,7 @@
     document.getElementById("bluepowder2").style.display="none";
     setTimeout(function(){
         document.getElementById("fancyspoon3").style.display="none";
-        document.getElementById("bluepowder").style.display="block";
+        document.getElementById("bluepowder").style.display="none";
     }, (1000))
     }
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
@@ -90,8 +90,12 @@
     {
         c= c+1;
         if (c==7){
-    document.getElementById("fun7").style.display="none";}
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    document.getElementById("fun7").style.display="none";
+    setTimeout(function(){
+        document.getElementById("glassrod").style.display="none";
+    }, (3000))
+    }
+    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");
     }
 
     function f8() 
