@@ -13,7 +13,7 @@
     {
         c= c+1;
         if (c==2){
-    document.getElementById("fun2").style.display="none";}
+    document.getElementById("fun2").style.display="none";}   
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
     }
 
