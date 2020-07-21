@@ -1,5 +1,32 @@
 <html>
     <head>
+      <link rel="stylesheet" type="text/css" href="tooltipster.bundle.min.css"/>
+      <link rel="stylesheet" type="text/css" href="tooltipster-sideTip-punk.min.css"/>
+      <link rel="stylesheet" type="text/css" href="style11.css"/>
+    
+      <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.0.min.js"></script>
+      <script type="text/javascript" src="tooltipster.bundle.min.js"></script>
+      <script>
+         $(document).ready(function() {
+             $('.tooltip').tooltipster({
+             theme: 'tooltipster-punk',
+             'maxWidth': 270, // set max width of tooltip box
+             contentAsHTML: true, // set title content to html
+             trigger: 'custom', // add custom trigger
+              triggerOpen: { // open tooltip when element is clicked, tapped (mobile) or hovered
+                  click: true,
+                  tap: true,
+                  mouseenter: true
+                  },
+                 triggerClose: { // close tooltip when element is clicked again, tapped or when the mouse leaves it
+                  click: true,
+                  scroll: false, // ensuring that scrolling mobile is not tapping!
+                  tap: true,
+                  mouseleave: true
+                  }
+         });
+         });
+       </script>
         <title>Circle</title>
         <style>
             #main{
@@ -62,8 +89,23 @@
             }
             #clip2{
                transform: scale(0);
-            }*/
-            
+            }
+ .beakerr {
+  position: absolute;
+  display: none;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border:#d3d3d3 solid 1px;
+  background: #fff;
+  color: black;
+  font-family: Comfortaa, Verdana;
+  font-size: smaller;
+  padding: 8px;
+  pointer-events:none;
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}  */
+
 
    .colours{
   
@@ -211,7 +253,7 @@
        id="wood3"
        style="opacity:0.690096;fill:#000000;stroke:#000000;stroke-width:0.104712"
        transform="matrix(0.99999986,5.3804588e-4,9.251844e-4,0.99999957,0,0)" />
-    <rect
+    <rect class="tooltip" title="Metalplate"
        style="opacity:0.811502;fill:#ac9393;stroke:#000000;stroke-width:0.104712;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="metalplate" 
        onclick="f11()"
@@ -270,7 +312,7 @@
     </rect>
 
 
-    <path
+    <path class="tooltip" title="Box containing CuSO4 crystals"
        d="m 44.952524,15.668305 9.927153,0.02605 c 0.444734,8.83e-4 0.808123,0.401234 0.814763,0.897027 l 0.04881,3.642623 c 0.0066,0.495783 -0.346065,0.89398 -0.790807,0.892805 l -9.927136,-0.02605 c -0.44475,-8.83e-4 -0.808132,-0.401243 -0.814772,-0.897026 l -0.04881,-3.642624 c -0.0066,-0.495783 0.346058,-0.89398 0.790799,-0.892806 z"
        style="fill:#e3dbdb;stroke-width:0.0141592"
        id="box" onclick="f2();"> 
@@ -359,7 +401,7 @@
          />
          <discard begin="1s"></discard>
       </text>
-    <path
+    <path class="tooltip" title="Battery"
        id="Battery"
        onclick="f9()"
        style="opacity:1;fill:#917c6f;fill-opacity:1;stroke:#000000;stroke-width:0.174519;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -435,7 +477,7 @@
          
          /> 
       </text>
-    <rect
+    <rect class="tooltip" title="Glassrod"
        style="opacity:0.333;fill:#80e5ff;stroke:#000000;stroke-width:0.139616;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="glassrod"
        onclick="f7()"
@@ -467,7 +509,7 @@
          </rect>
 
          
-    <path
+    <path class="tooltip" title="Ironnail"
        id="ironnail"
        onclick="f10()"
        style="opacity:1;mix-blend-mode:normal;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.139616;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -510,7 +552,7 @@
    />
    </path>
 
-   <path
+   <path class="tooltip" title="Ironnail"
        id="ironnail_from_table_to_beaker"
        display="none"
        style="opacity:0.674121;mix-blend-mode:normal;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.139616;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -519,7 +561,7 @@
       </path>
    
     
-       <path
+       <path class="tooltip" title="Sandpaper"
        id="sandpaper"
        onclick="f8()"
        style="opacity:0.674121;mix-blend-mode:normal;fill:#aa8800;fill-opacity:1;stroke:#000000;stroke-width:0.0414076;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -661,7 +703,7 @@
          style="fill:#cccccc;stroke-width:0.264583" />
     </g>
 
-    <path
+    <path class="tooltip" title="Beaker"
        id="beaker-7"  onclick="function f1()"
        style="opacity:0.271566;mix-blend-mode:normal;fill:#00ffff;fill-rule:evenodd;stroke:#f8f4f4;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 7.365189,7.4662763 V 21.553533 h 9.739162 V 10.110831 l 1.42254,-2.5372497 -1.42254,-0.04083 1.42254,0.04083 -3.738578,-0.107305 z">
@@ -682,13 +724,9 @@
        
        />
        
-       
-       
-       />
-       f0()
       </path>
     
-       <path
+       <path class="tooltip" title="Beaker containing Water"
        d="M 8.2488776,14.213001 H 16.22442 c 0.458209,0 0.827093,0.381323 0.827093,0.854987 v 6.028736 c 0,0.473661 -0.0138,0.443563 -0.47201,0.444744 l -8.3723997,0.02159 c -0.7927143,0.002 -0.8078414,0.02891 -0.8062061,-0.444744 l 0.020887,-6.050328 c 0.00164,-0.47366 0.3688836,-0.854987 0.8270933,-0.854987 z"
        style="opacity:1;mix-blend-mode:normal;fill:#65709a;fill-opacity:1;stroke:#000000;stroke-width:0.039628;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="liquid" class="colours"
@@ -721,7 +759,7 @@
    />
       
     </path>
-    <rect
+    <rect class="tooltip" title="Metalplate"
        ry="0.0016826894"
        y="73.933619"
        x="103.7015476"
@@ -736,13 +774,13 @@
 
    </rect>
     
-       <path
+       <path class="tooltip" title="Ironnail"
        d="m 109.290789,75.111405 a 0.77485724,0.12691968 0 0 0 -0.766678,0.12689 0.77485724,0.12691968 0 0 0 0.497544,0.118509 v 5.372375 c 0,0.0016 0.0011,0.0028 0.0024,0.0035 h -0.0015 l 0.264793,0.491622 0.264844,-0.493781 h -0.0019 c 2.1e-4,-4.98e-4 6e-4,-7.96e-4 6e-4,-0.0013 v -5.370831 a 0.77485724,0.12691968 0 0 0 0.522969,-0.120053 0.77485724,0.12691968 0 0 0 -0.774843,-0.12689 0.77485724,0.12691968 0 0 0 -0.0082,0 z"
        style="opacity:0.674121;mix-blend-mode:normal;fill:#b3b3b3;fill-opacity:1;stroke:#000000;stroke-width:0.0398985;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="ironnail-8" 
        display="none"
        />
-    <path
+    <path class="tooltip" title="Red Wire"
        style="fill:none;stroke:#ad0000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="M 9.1778311,12.48214 C 21.497396,5.2444197 28.348215,19.607515 28.348215,19.607515"
        id="redwire" display="none">
@@ -764,7 +802,7 @@
        />
       
       </path>
-    <path
+    <path class="tooltip" title="Black w\Wire"
        style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        d="m 16.063765,12.850593 c 13.796353,-0.613614 14.457811,6.804169 14.457811,6.804169"
        id="blackwire" display="none">
@@ -841,7 +879,7 @@
        />
        </rect>
       <!--this is from cupboard to box-->
-       <path
+       <path class="tooltip" title="spatula"
        id="fancyspoon" onclick="f4()"
        
        class="move"
@@ -866,7 +904,7 @@
        
    </path>
 
-   <path
+   <path class="tooltip" title="Spatula carrying CuSO4 crystals."
        id="fancyspoon2"
        display="none"
        onclick="f5()"
@@ -996,7 +1034,7 @@
        
 
        </path>
-       <rect
+       <rect class="tooltip" title="Weighing Machine"
        ry="0"
        y="60.22263"
        x="28.377842"
@@ -1019,7 +1057,7 @@
        />
        </rect>
     
-       <rect
+       <rect class="tooltip" title="Weighing Machine"
        y="61.624977"
        x="31.5466"
        height="1.3913828"
@@ -1041,7 +1079,7 @@
        />
        </rect>
 
-       <rect
+       <rect class="tooltip" title="Weighing Machine"
        y="64.533127"
        x="29.946344"
        height="0.95199871"
@@ -1061,7 +1099,7 @@
        
        />
        </rect>
-    <rect
+    <rect class="tooltip" title="Weighing Machine stand"
        style="fill:#000000;stroke-width:0.0256701"
        id="stand1" onclick="f3();"
        width="0.88146853"
@@ -1081,7 +1119,7 @@
        
        />
        </rect>
-    <rect
+    <rect class="tooltip" title="Weighing Machine"
        onclick="f3();"
        y="49.995987"
        x="29.506229"
@@ -1102,7 +1140,7 @@
        
        />
        </rect>
-    <path
+    <path class="tooltip" title="Petri-dish"
        d="m 31.523243,59.111892 6.669944,0.008 -0.496195,0.71908 h -5.615523 z"
        style="opacity:1;fill:#c8b7b7;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="dish" onclick="function f3()">
