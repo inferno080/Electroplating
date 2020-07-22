@@ -140,6 +140,8 @@
 }
 
         </style>
+        <link rel="stylesheet" href="style.css">
+
     </head>
     <body style = "overflow: hidden; background-color: rgb(226, 226, 216);">
 
@@ -403,13 +405,25 @@
          <discard begin="1s"></discard>
       </text> -->
       <rect
+      onclick="f9()"
       transform="matrix(1,0,-0.00701854,0.99997537,0,0)"
       y="12.310042"
       x="21.061182"
       height="9.0058975"
       width="13.023445"
-      id="Battery-1"
-      style="opacity:0.958466;fill:#b3b3b3;stroke:#030000;stroke-width:0.101483;stroke-linejoin:round;paint-order:markers stroke fill" />
+      id="Battery1"
+      style="opacity:0.958466;fill:#b3b3b3;stroke:#030000;stroke-width:0.101483;stroke-linejoin:round;paint-order:markers stroke fill">
+      <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="2s"
+       fill="freeze"
+       values="0,0;95,63"
+       begin="Battery1.click"
+       
+       /> 
+      </rect>
    <rect
       transform="matrix(1,0,-0.00701854,0.99997537,0,0)"
       y="10.985167"
@@ -417,7 +431,18 @@
       height="1.2795116"
       width="2.011528"
       id="positiveterminal-9"
-      style="opacity:0.958466;fill:#d40000;stroke:#030000;stroke-width:0.130491;stroke-linejoin:round;paint-order:markers stroke fill" />
+      style="opacity:0.958466;fill:#d40000;stroke:#030000;stroke-width:0.130491;stroke-linejoin:round;paint-order:markers stroke fill">
+      <animateTransform 
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="2s"
+      fill="freeze"
+      values="0,0;95,63"
+      begin="Battery1.click"
+      
+      /> 
+     </rect>
    <rect
       transform="matrix(1,0,-0.00701854,0.99997537,0,0)"
       style="opacity:0.958466;fill:#000000;stroke:#030000;stroke-width:0.135987;stroke-linejoin:round;paint-order:markers stroke fill"
@@ -425,15 +450,48 @@
       width="2.0699017"
       height="1.350355"
       x="30.378582"
-      y="10.94346" />
+      y="10.94346">
+      <animateTransform 
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="2s"
+      fill="freeze"
+      values="0,0;95,63"
+      begin="Battery1.click"
+      
+      /> 
+     </rect>
    <path
       id="redwire-2" display="none"
       d="M 9.3041939,12.277152 C 9.3500105,-2.7229182 23.239424,11.0911 23.239424,11.0911"
-      style="fill:none;stroke:#cf0000;stroke-width:0.211593;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      style="fill:none;stroke:#cf0000;stroke-width:0.211593;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <animateTransform 
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="2s"
+      fill="freeze"
+      values="0,0;95,63"
+      begin="Battery1.click"
+      
+      /> 
+     </path>
    <path
       id="blackwire" display = "none"
       d="m 15.504848,12.162968 c 0.09501,-18.7214095 14.931204,-1.020601 14.931204,-1.020601"
-      style="fill:none;stroke:#000000;stroke-width:0.179628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      style="fill:none;stroke:#000000;stroke-width:0.179628;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
+      <animateTransform 
+      attributeName="transform"
+      attributeType="XML"
+      type="translate"
+      dur="2s"
+      fill="freeze"
+      values="0,0;95,63"
+      begin="battery.click"
+      
+      /> 
+   </path>
    
       </text>
     <rect class="tooltip" title="Glassrod"
@@ -526,7 +584,18 @@
       height="4.349946"
       width="10.304797"
       id="Steve"
-      style="opacity:1;fill:#917c6f;stroke:#0c0000;stroke-width:0.184674;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill" />
+      style="opacity:1;fill:#917c6f;stroke:#0c0000;stroke-width:0.184674;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers stroke fill">
+      <animateTransform 
+       attributeName="transform"
+       attributeType="XML"
+       type="translate"
+       dur="2s"
+       fill="freeze"
+       values="0,0;95,63"
+       begin="Battery1.click"
+       
+       /> 
+      </rect>
        <path class="tooltip" title="Sandpaper"
        id="sandpaper"
        onclick="f8()"
@@ -961,14 +1030,14 @@
        </path>
        <rect class="tooltip" title="Weighing Machine"
        ry="0"
-       y="60.22263"
-       x="28.377842"
+       y="79.22263"
+       x="170.377842"
        height="3.7713795"
        width="13.001661"
        id="weighingmachine7" onclick="f3();"
        style="fill:#e3dbdb;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
     
-       <animateTransform id="beaker-7"
+       <!--<animateTransform id="beaker-7"
        attributeName="transform"
        attributeType="XML"
        type="translate"
@@ -979,18 +1048,18 @@
        begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
        
        
-       />
+       />-->
        </rect>
     
        <rect class="tooltip" title="Weighing Machine"
-       y="61.624977"
-       x="31.5466"
+       y="80.22263"
+       x="173.5466"
        height="1.3913828"
        width="7.6393943"
        id="Display" onclick="f3();"
        style="fill:#536c53;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" >
     
-       <animateTransform id="beaker-7"
+       <!--<animateTransform id="beaker-7"
        attributeName="transform"
        attributeType="XML"
        type="translate"
@@ -1001,17 +1070,17 @@
        begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
        
        
-       />
+       />-->
        </rect>
 
        <rect class="tooltip" title="Weighing Machine"
-       y="64.533127"
-       x="29.946344"
+       y="82.933127"
+       x="172.946344"
        height="0.95199871"
        width="0.88146853"
        id="stand26" onclick="f3();"
        style="fill:#000000;stroke-width:0.0256701">
-       <animateTransform id="beaker-7"
+       <!--<animateTransform id="beaker-7"
        attributeName="transform"
        attributeType="XML"
        type="translate"
@@ -1022,37 +1091,26 @@
        begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
        
        
-       />
+       />-->
        </rect>
     <rect class="tooltip" title="Weighing Machine stand"
        style="fill:#000000;stroke-width:0.0256701"
        id="stand1" onclick="f3();"
        width="0.88146853"
        height="0.95199871"
-       x="38.192005"
-       y="64.265862">
-       <animateTransform id="beaker-7"
-       attributeName="transform"
-       attributeType="XML"
-       type="translate"
-       dur="1s"
-       values="0,0;142,19"
-       restart="whenNotActive"
-       fill="freeze"
-       begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
+       x="180.192005"
+       y="82.933127">
        
-       
-       />
        </rect>
     <rect class="tooltip" title="Weighing Machine"
        onclick="f3();"
-       y="49.995987"
-       x="29.506229"
+       y="68.995987"
+       x="171.706229"
        height="9.9959869"
        width="10.467439"
        id="shield"
        style="opacity:0.43000004;fill:#aaeeff;stroke:#000000;stroke-width:0.0388083;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-       <animateTransform id="beaker-7"
+       <!--<animateTransform id="beaker-7"
        attributeName="transform"
        attributeType="XML"
        type="translate"
@@ -1063,13 +1121,13 @@
        begin="dish.click;stand1.click;Display.click;shield.click;stand26.click;weighingmachine7.click"
        
        
-       />
+       />-->
        </rect>
     <path class="tooltip" title="Petri-dish"
-       d="m 31.523243,59.111892 6.669944,0.008 -0.496195,0.71908 h -5.615523 z"
+       d="m 173.706229,78.205987 6.669944,0.008 -0.496195,0.71908 h -5.615523 z"
        style="opacity:1;fill:#c8b7b7;stroke:#000000;stroke-width:0.0291063;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="dish" onclick="function f3()">
-       <animateTransform id="beaker-7" 
+       <!--<animateTransform id="beaker-7" 
        attributeName="transform"
        attributeType="XML"
        type="translate"
@@ -1082,7 +1140,7 @@
        
        
        
-       />
+       />-->
       </path>
     <!--<path
        transform="matrix(0.09119404,0.00147731,-0.00583454,0.02145811,29.323374,55.177987)"
@@ -1470,7 +1528,7 @@
          attributeType="XML"
          type="translate"
          dur="1s"
-          values="0,0;95,63" 
+         values="0,0;95,63" 
          
          restart="whenNotActive"
          fill="freeze"
@@ -1490,8 +1548,7 @@
          attributeType="XML"
          type="translate"
          dur="1s"
-          values="0,0;95,63" 
-         
+         values="0,0;95,63" 
          restart="whenNotActive"
          fill="freeze"
          additive="sum"
@@ -1550,7 +1607,7 @@
          attributeType="XML"
          type="translate"
          dur="1s"
-          values="0,0;95,63" 
+         values="0,0;95,63" 
          
          restart="whenNotActive"
          fill="freeze"
@@ -1603,7 +1660,18 @@
            transform="scale(0.26458333)"
            id="avatarblood" onclick="f2()"
            d="m 190.16234,80.855917 c -6.00504,-0.04072 -11.03951,-0.09354 -11.1877,-0.117366 -0.5673,-0.09122 -1.06797,-0.819905 -1.47445,-2.145945 -0.47139,-1.537815 -0.50149,-1.899724 -0.57979,-6.9719 -0.0402,-2.604596 -0.0764,-5.809349 -0.0805,-7.121672 l -0.007,-2.386042 0.38175,-0.223722 c 0.20996,-0.123047 0.45286,-0.302297 0.53977,-0.398333 0.0869,-0.09604 0.22687,-0.17461 0.31102,-0.17461 0.0841,0 0.51156,0.33544 0.9498,0.745423 0.90025,0.842213 1.13273,0.914297 1.77837,0.551425 l 0.34517,-0.193999 0.99241,0.203544 c 1.12273,0.230272 1.37998,0.206396 1.85651,-0.172304 0.17795,-0.141416 0.39432,-0.257121 0.48082,-0.257121 0.0865,0 0.47445,0.1045 0.86211,0.232223 0.68487,0.225639 0.71555,0.228137 1.08213,0.08814 0.27403,-0.104654 0.5306,-0.324192 0.93758,-0.802252 0.30817,-0.361993 0.59436,-0.658169 0.63598,-0.658169 0.0416,0 0.38532,0.155689 0.76378,0.345976 1.29069,0.648949 2.5751,0.974841 3.12578,0.793102 0.15951,-0.05264 0.39382,-0.231811 0.52069,-0.398153 0.26445,-0.346702 0.3933,-0.373564 0.61529,-0.128269 0.0867,0.0958 0.41838,0.301928 0.73709,0.458074 0.66499,0.325802 0.74103,0.329676 3.42962,0.174701 1.15012,-0.0663 1.81385,-0.147547 2.28012,-0.279125 1.21072,-0.341662 3.84537,-1.728293 5.25375,-2.765081 l 0.54065,-0.398006 1.05201,0.629048 c 0.5786,0.345977 1.06732,0.65383 1.08604,0.684117 0.0187,0.03029 0.0623,3.388713 0.0968,7.463166 0.0676,7.977469 0.0411,8.755095 -0.35941,10.565184 -0.24919,1.12608 -0.69493,2.099952 -1.14001,2.490742 l -0.30946,0.271709 -2.29899,-0.01523 c -1.26445,-0.0084 -7.21221,-0.04855 -13.21725,-0.08927 z"
-           style="opacity:0.958466;fill:#00ffff;stroke:#00d2f5;stroke-width:0.331494;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill" />
+           style="opacity:0.958466;fill:#00ffff;stroke:#00d2f5;stroke-width:0.331494;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill">
+           <animateTransform id="lol"
+            attributeName="transform"
+            attributeType="XML"
+            type="translate"
+            dur="1s"
+            values="0,0;2,2"
+            restart="whenNotActive"
+            fill="freeze"
+            begin="avatarblood.click" 
+            />
+           </path>
       </g>
 </svg>
 
