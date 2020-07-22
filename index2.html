@@ -184,7 +184,7 @@
         </div>
         
         <div class="slave" id="fun3">
-            <p>Click on the weighning machine to bring it to the worktable.</p>
+            <p>Click on the weighning machine to turn it ON</p>
         </div>
 
         <div class="slave" id="fun2">
@@ -1276,7 +1276,7 @@
        style="font-style:normal;font-weight:normal;font-size:1.90647px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f60000;fill-opacity:1;stroke:none;stroke-width:0.0476618"
        x="29.51753"
        y="69.858787"
-       id="hellomoto1"
+       id="hellomoto1" display ="none"
        transform="scale(1.1066235,0.90364971)"><tspan
          sodipodi:role="line"
          id="tspan953"
@@ -1285,7 +1285,7 @@
          style="fill:#f60000;fill-opacity:1;stroke-width:0.0476618">00.00</tspan></text>
      <text
        transform="scale(1.1066235,0.90364971)"
-       id="hellomoto2"
+       id="hellomoto2" display =" none"
        y="69.822047"
        x="29.49836"
        style="font-style:normal;font-weight:normal;font-size:1.90647px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#f60000;fill-opacity:1;stroke:none;stroke-width:0.0476618"
@@ -1645,7 +1645,7 @@
  
          <path
          sodipodi:nodetypes="ccccccccc"
-         id="box"
+         id="box" onclick="f2()"
          style="fill:#e3dbdb;stroke-width:0.0166138"
          d="m 48.616811,10.016118 4.741315,-0.1579081 c 0.313241,0.0017 1.520516,1.7356271 1.525192,2.7047621 l 0.03438,7.120296 c 0.0046,0.969115 -0.243745,1.747477 -0.556991,1.745181 l -6.992005,-0.05092 c -0.313252,-0.0017 -0.569194,-0.784316 -0.57387,-1.753431 L 46.760452,12.5038 c -0.0041,-0.796404 1.001452,-2.8387362 1.856359,-2.487682 z" />
       <rect
@@ -1677,7 +1677,7 @@
 
            <path
            transform="scale(0.26458333)"
-           id="avatarblood"
+           id="avatarblood" onclick="f2()"
            d="m 190.16234,80.855917 c -6.00504,-0.04072 -11.03951,-0.09354 -11.1877,-0.117366 -0.5673,-0.09122 -1.06797,-0.819905 -1.47445,-2.145945 -0.47139,-1.537815 -0.50149,-1.899724 -0.57979,-6.9719 -0.0402,-2.604596 -0.0764,-5.809349 -0.0805,-7.121672 l -0.007,-2.386042 0.38175,-0.223722 c 0.20996,-0.123047 0.45286,-0.302297 0.53977,-0.398333 0.0869,-0.09604 0.22687,-0.17461 0.31102,-0.17461 0.0841,0 0.51156,0.33544 0.9498,0.745423 0.90025,0.842213 1.13273,0.914297 1.77837,0.551425 l 0.34517,-0.193999 0.99241,0.203544 c 1.12273,0.230272 1.37998,0.206396 1.85651,-0.172304 0.17795,-0.141416 0.39432,-0.257121 0.48082,-0.257121 0.0865,0 0.47445,0.1045 0.86211,0.232223 0.68487,0.225639 0.71555,0.228137 1.08213,0.08814 0.27403,-0.104654 0.5306,-0.324192 0.93758,-0.802252 0.30817,-0.361993 0.59436,-0.658169 0.63598,-0.658169 0.0416,0 0.38532,0.155689 0.76378,0.345976 1.29069,0.648949 2.5751,0.974841 3.12578,0.793102 0.15951,-0.05264 0.39382,-0.231811 0.52069,-0.398153 0.26445,-0.346702 0.3933,-0.373564 0.61529,-0.128269 0.0867,0.0958 0.41838,0.301928 0.73709,0.458074 0.66499,0.325802 0.74103,0.329676 3.42962,0.174701 1.15012,-0.0663 1.81385,-0.147547 2.28012,-0.279125 1.21072,-0.341662 3.84537,-1.728293 5.25375,-2.765081 l 0.54065,-0.398006 1.05201,0.629048 c 0.5786,0.345977 1.06732,0.65383 1.08604,0.684117 0.0187,0.03029 0.0623,3.388713 0.0968,7.463166 0.0676,7.977469 0.0411,8.755095 -0.35941,10.565184 -0.24919,1.12608 -0.69493,2.099952 -1.14001,2.490742 l -0.30946,0.271709 -2.29899,-0.01523 c -1.26445,-0.0084 -7.21221,-0.04855 -13.21725,-0.08927 z"
            style="opacity:0.958466;fill:#00ffff;stroke:#00d2f5;stroke-width:0.331494;stroke-linejoin:round;stroke-opacity:1;paint-order:markers stroke fill" />
       </g>
@@ -1690,8 +1690,8 @@
    <button class="B1" onclick= "f12();" data-add="move-around"> Click Here to read the theory!
    </button>
 </div>
-<div id="zero" style = " display:none; margin-top: -1022px; float:right; position: relative;width: 40px; height: 7px; margin-right: 360px ; color: red; font-size: x-small; ">00:00</div>
-<div id="thirtynine" style = "display:none;margin-top: -1022px; float:right; position: relative;width: 40px; height: 7px; margin-right: 360px ; color: red; font-size: x-small;">39.90</div>
+<!--<div id="zero" style = " display:none; margin-top: -1022px; float:right; position: relative;width: 40px; height: 7px; margin-right: 360px ; color: red; font-size: x-small; ">00:00</div>
+<div id="thirtynine" style = "display:none;margin-top: -1022px; float:right; position: relative;width: 40px; height: 7px; margin-right: 360px ; color: red; font-size: x-small;">39.90</div>-->
 <!--<div id="thirtyninenine" style = " display:none;margin-top: -1022px; float:right; position: relative;width: 40px; height: 7px; margin-right: 360px ; color: red; font-size: x-small;">39.90</div>-->
 
 

@@ -24,7 +24,7 @@
         if (c==3){
             document.getElementById("fun3").style.display="none";
             setTimeout(function() {
-                    document.getElementById("zero").style.display="block";
+                    document.getElementById("hellomoto1").style.display="block";
                     }, delayInMilliseconds);
 }
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
@@ -60,8 +60,8 @@
         if (c==5){
     document.getElementById("fun5").style.display="none";
     setTimeout(function(){
-        document.getElementById("zero").style.display="none";
-        document.getElementById("thirtynine").style.display="block";
+        document.getElementById("hellomoto1").style.display="none";
+        document.getElementById("hellomoto2").style.display="block";
         document.getElementById("fancyspoon2").style.display= "none";
         document.getElementById("fancyspoon3").style.display="block" ;
     }, (1000))
