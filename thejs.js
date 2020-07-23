@@ -80,13 +80,13 @@
     document.getElementById("fun6").style.display="none";
     document.getElementById("bluepowder").style.display="block";
     document.getElementById("bluepowder2").style.display="none";
-    document.getElementById("thirtynine").style.display="none";
+    document.getElementById("hellomoto2").style.display="none";
     document.getElementById("hellomoto1").style.display="block";
     setTimeout(function(){
         document.getElementById("fancyspoon3").style.display="none";
         document.getElementById("bluepowder").style.display = "none"; 
     }, (2000))
-    }
+}
     else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");
     }
  }
