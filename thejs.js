@@ -70,6 +70,8 @@
 
         else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
 
+}
+
     function f6() 
     {
         c= c+1;
