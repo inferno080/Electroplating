@@ -81,7 +81,7 @@
     document.getElementById("bluepowder").style.display="block";
     document.getElementById("bluepowder2").style.display="none";
     document.getElementById("thirtynine").style.display="none";
-    document.getElementById("zero").style.display="block";
+    document.getElementById("hellomoto1").style.display="block";
     setTimeout(function(){
         document.getElementById("fancyspoon3").style.display="none";
         document.getElementById("bluepowder").style.display = "none"; 
