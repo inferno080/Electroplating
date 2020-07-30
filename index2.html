@@ -56,6 +56,9 @@
             .m{
                 display: none;
             }
+            .shadow{
+               box-shadow: 2px 2px 5px;
+            }
 
              
               
@@ -121,7 +124,7 @@
 }
 
 .B1 {
-    background-color: #4d4d4d;
+    background-color: #2C3E50;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -143,7 +146,7 @@
         <link rel="stylesheet" href="style.css">
 
     </head>
-    <body style = "overflow: hidden; background-color: #63796c" >
+    <body style = "overflow: hidden; background-color: #B4AB96" >
 
      <div class="slave">
             Hello world
@@ -230,6 +233,7 @@
        height="71.763252"
        width="63.806946"
        id="shelf"
+       class="shadow"
        style="opacity:0.56230002;fill:#4d4d4d;stroke:#000000;stroke-width:0.21311899;stroke-miterlimit:4;stroke-dasharray:none"
        transform="matrix(0.99999991,4.1297616e-4,0.00120538,0.99999927,0,0)" />
     <rect
@@ -404,7 +408,7 @@
          />
          <discard begin="1s"></discard>
       </text> -->
-      <rect
+      <rect class="tooltip" title="Battery"
       onclick="f9()"
       transform="matrix(1,0,-0.00701854,0.99997537,0,0)"
       y="12.310042"
@@ -632,7 +636,7 @@
     
     
        <path
-       style="display:none;opacity:1;fill:#1c52fb;stroke:#000000;stroke-width:0.656527;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="display:none;opacity:1;fill:#00ffff;stroke:#000000;stroke-width:0.656527;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="heap2-6" 
        class="heap1"
        display="none"
@@ -642,7 +646,7 @@
        transform="matrix(0.31000393,0.00558542,-0.01983386,0.08112902,83.753534,228.00477)"
        d="m 88.733488,126.95304 18.144852,25.87272 -31.478856,2.77754 z"
        id="heap1-5"
-       style="display:none;opacity:1;fill:#1c52fb;stroke:#000000;stroke-width:0.656527;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="display:none;opacity:1;fill:#00ffff;stroke:#000000;stroke-width:0.656527;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <g
        style="fill:#cccccc"
        id="layer1-5"
@@ -786,7 +790,7 @@
    attributeName="fill"
    
    attributeType="XML"
-   values="#1c52fb"
+   values="#17e8c9"
    
    repeatCount="infinite"
    begin="glassrod.click+2s"
@@ -958,7 +962,7 @@
 
    
        <path
-       style="fill:#1c52fb;stroke-width:0.264583"
+       style="fill:#00ffff;stroke-width:0.264583"
        id="path5335"
        d="m 111.57969,52.150547 -1e-5,-2.3e-5 2e-5,0 z"
        transform="matrix(0.10389037,0,0,0.11434104,16.063473,31.776828)" />
@@ -966,7 +970,7 @@
        id="bluepowder" 
        onclick="f6()"
        display="none"
-       style="fill:#1c52fb;stroke:#000000;stroke-width:0.0251125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.0251125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 178.81361,76.637191 c -0.957926,0.301849 -2.056797,0.517505 -2.93514,-0.02775 0.421796,-0.482116 0.909136,-1.032962 1.330931,-1.515079 z"
        >
     
@@ -1002,7 +1006,7 @@
        id="bluepowder2" 
        onclick="f5()"
        display="none"
-       style="fill:#1c52fb;stroke:#000000;stroke-width:0.0251125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#00ffff;stroke:#000000;stroke-width:0.0251125;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 149.81361,68.637191 c -0.957926,0.301849 -2.056797,0.517505 -2.93514,-0.02775 0.421796,-0.482116 0.909136,-1.032962 1.330931,-1.515079 z"
        >
     
@@ -1633,7 +1637,7 @@
 
  
          <path
-         sodipodi:nodetypes="ccccccccc"
+         sodipodi:nodetypes="ccccccccc" class="tooltip" title="CuSO4 Container"
          id="box" onclick="f2()"
          style="fill:white;stroke:black;stroke-width:0.3; opacity:0.4"
          d="m 48.616811,10.016118 4.741315,-0.1579081 c 0.313241,0.0017 1.520516,1.7356271 1.525192,2.7047621 l 0.03438,7.120296 c 0.0046,0.969115 -0.243745,1.747477 -0.556991,1.745181 l -6.992005,-0.05092 c -0.313252,-0.0017 -0.569194,-0.784316 -0.57387,-1.753431 L 46.760452,12.5038 c -0.0041,-0.796404 1.001452,-2.8387362 1.856359,-2.487682 z" > 
@@ -1729,7 +1733,7 @@
            <path
            sodipodi:nodetypes="ccscc"
            d="m 46.809422,15.783617 c 0.08736,-0.68884 0.696478,2.625167 8.055879,0 -0.02322,2.157891 -0.162422,5.485314 -0.162422,5.485314 -0.142901,-0.04805 -8.045947,0.894594 -7.754238,-0.626485 z"
-           style="opacity:0.517891;fill:#1c52fb;stroke-width:1.00012;stroke-linejoin:round;paint-order:markers stroke fill"
+           style="opacity:0.517891;fill:#17e8c9;stroke-width:1.00012;stroke-linejoin:round;paint-order:markers stroke fill"
            id="avatarblood" onclick="f2()" > 
            <animateTransform id="lol"
            attributeName="transform"
