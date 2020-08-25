@@ -6,7 +6,7 @@
         c= c+1;
         if (c==1){
     document.getElementById("fun1").style.display="none";}
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f2() 
@@ -14,7 +14,7 @@
         c= c+1;
         if (c==2){
     document.getElementById("fun2").style.display="none";}   
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f3() 
@@ -27,7 +27,7 @@
                     document.getElementById("hellomoto1").style.display="block";
                     }, 0);
 }
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f4() 
@@ -51,7 +51,7 @@
                 }
               }, delayInMilliseconds);
             }
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f5() 
@@ -68,7 +68,7 @@
 }
         
 
-        else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+        else{c = c-1; alert("You Clicked the wrong apparatus");}
 
 }
 
@@ -87,7 +87,7 @@
         document.getElementById("bluepowder").style.display = "none"; 
     }, (2000))
 }
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");
+    else{c = c-1; alert("You Clicked the wrong apparatus");
     }
  }
 
@@ -100,7 +100,7 @@
         document.getElementById("glassrod").style.display="none";
     }, (5000))
     }
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");
+    else{c = c-1; alert("You Clicked the wrong apparatus");
     }
 }
 
@@ -109,7 +109,7 @@
         c= c+1;
         if (c==8){
     document.getElementById("fun8").style.display="none";}
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f9() 
@@ -117,7 +117,7 @@
         c= c+1;
         if (c==9){
     document.getElementById("fun9").style.display="none";}
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f10()
@@ -130,7 +130,7 @@
             document.getElementById("ironnail").style.display="none";
             document.getElementById("fun10").style.display="none";}
 
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f11() 
@@ -144,14 +144,14 @@
             document.getElementById("fun11").style.display="none";
             setInterval(function(){document.getElementById("ironnail").style.display="block";}, (1000))
     }
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f12() 
     {        c= c+1;
         if (c==12){
     document.getElementById("fun12").style.display="none";}
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function f13() 
@@ -159,7 +159,7 @@
         c= c+1;
         if (c==13){
     document.getElementById("fun8").style.display="none";}
-    else{alert("You clicked on the wrong apparatus. Refresh the page to avoid potential errors");}
+    else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
 
     function add1()
