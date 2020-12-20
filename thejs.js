@@ -41,7 +41,9 @@
                 p = p + 1;
                 if (p==1){
                 document.getElementById("bluepowder2").style.display="block";
+                document.getElementById("bluepowder2").style.cursor="pointer";
                 document.getElementById("fancyspoon2").style.display="block";
+                document.getElementById("fancyspoon2").style.cursor="pointer";
                 document.getElementById("fancyspoon").style.display="none";
                 }
                 if (p==2){
@@ -62,8 +64,10 @@
     setTimeout(function(){
         document.getElementById("hellomoto1").style.display="none";
         document.getElementById("hellomoto2").style.display="block";
+        document.getElementById("hellomoto2").style.cursor="pointer";
         document.getElementById("fancyspoon2").style.display= "none";
         document.getElementById("fancyspoon3").style.display="block" ;
+        document.getElementById("fancyspoon3").style.cursor="pointer";
     }, (1000))
 }
         
@@ -79,9 +83,11 @@
         {
     document.getElementById("fun6").style.display="none";
     document.getElementById("bluepowder").style.display="block";
+    document.getElementById("bluepowder").style.cursor="pointer";
     document.getElementById("bluepowder2").style.display="none";
     document.getElementById("hellomoto2").style.display="none";
     document.getElementById("hellomoto1").style.display="block";
+    document.getElementById("hellomoto1").style.cursor="pointer";
     setTimeout(function(){
         document.getElementById("fancyspoon3").style.display="none";
         document.getElementById("bluepowder").style.display = "none"; 
@@ -126,7 +132,9 @@
         if (c==11){
             document.getElementById("ironnail-8").style.display="block";
             document.getElementById("blackwire").style.display="block";
+            document.getElementById("blackwire").style.cursor="pointer";
             document.getElementById("clip1").style.display="block";
+            document.getElementById("clip1").style.cursor="pointer";
             document.getElementById("ironnail").style.display="none";
             document.getElementById("fun10").style.display="none";}
 
@@ -138,11 +146,17 @@
         c= c+1;
         if (c==10){
             document.getElementById("metalplate-1").style.display="block";
+            document.getElementById("metalplate-1").style.cursor="pointer";
             document.getElementById("redwire-2").style.display="block";
+            document.getElementById("redwire-2").style.cursor="pointer";
             document.getElementById("clip2").style.display="block";
+            document.getElementById("clip2").style.cursor="pointer";
             document.getElementById("metalplate").style.display="none";
             document.getElementById("fun11").style.display="none";
-            setInterval(function(){document.getElementById("ironnail").style.display="block";}, (1000))
+            setInterval(function(){
+                document.getElementById("ironnail").style.display="block";
+                document.getElementById("ironnail").style.cursor="pointer";
+        }, (1000))
     }
     else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
