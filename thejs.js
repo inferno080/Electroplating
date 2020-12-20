@@ -1,10 +1,13 @@
    var c = 0;
    var t = 0;
-  
+   document.getElementById("beaker7").style.cursor="pointer";
+   c= c+1;
   function f1() 
     {
-        c= c+1;
+        
         if (c==1){
+            document.getElementById("beaker7").style.cursor="default";
+            document.getElementById("box").style.cursor="pointer";
     document.getElementById("fun1").style.display="none";}
     else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
@@ -13,6 +16,11 @@
     {
         c= c+1;
         if (c==2){
+            document.getElementById("box").style.cursor="default";
+            document.getElementById("weighingmachine7").style.cursor="pointer";
+            document.getElementById("shield").style.cursor="pointer";
+            document.getElementById("Display").style.cursor="pointer";
+
     document.getElementById("fun2").style.display="none";}   
     else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
@@ -22,6 +30,10 @@
         c= c+1;
         delayInMilliseconds= 1000;
         if (c==3){
+            document.getElementById("weighingmachine7").style.cursor="default";
+            document.getElementById("shield").style.cursor="default";
+            document.getElementById("Display").style.cursor="default";
+            document.getElementById("fancyspoon").style.cursor="pointer";
             document.getElementById("fun3").style.display="none";
             setTimeout(function() {
                     document.getElementById("hellomoto1").style.display="block";
@@ -40,6 +52,7 @@
             setInterval(function() {
                 p = p + 1;
                 if (p==1){
+                document.getElementById("fancyspoon").style.cursor="default";
                 document.getElementById("bluepowder2").style.display="block";
                 document.getElementById("bluepowder2").style.cursor="pointer";
                 document.getElementById("fancyspoon2").style.display="block";
@@ -61,10 +74,11 @@
         c= c+1;
         if (c==5){
     document.getElementById("fun5").style.display="none";
+    
     setTimeout(function(){
         document.getElementById("hellomoto1").style.display="none";
         document.getElementById("hellomoto2").style.display="block";
-        document.getElementById("hellomoto2").style.cursor="pointer";
+        // document.getElementById("hellomoto2").style.cursor="pointer";
         document.getElementById("fancyspoon2").style.display= "none";
         document.getElementById("fancyspoon3").style.display="block" ;
         document.getElementById("fancyspoon3").style.cursor="pointer";
@@ -78,6 +92,8 @@
 
     function f6() 
     {
+        // document.getElementById("Glassrod").style.cursor="pointer";
+
         c= c+1;
         if (c==6)
         {
@@ -87,7 +103,10 @@
     document.getElementById("bluepowder2").style.display="none";
     document.getElementById("hellomoto2").style.display="none";
     document.getElementById("hellomoto1").style.display="block";
-    document.getElementById("hellomoto1").style.cursor="pointer";
+    document.getElementById("glassrod").style.cursor="pointer";
+
+    
+    // document.getElementById("hellomoto1").style.cursor="pointer";
     setTimeout(function(){
         document.getElementById("fancyspoon3").style.display="none";
         document.getElementById("bluepowder").style.display = "none"; 
@@ -101,7 +120,11 @@
     {
         c= c+1;
         if (c==7){
+            document.getElementById("glassrod").style.cursor="default";
+            document.getElementById("Battery1").style.cursor="pointer";
+
     document.getElementById("fun7").style.display="none";
+    document.getElementById("sandpaper").style.cursor="pointer";
     setTimeout(function(){
         document.getElementById("glassrod").style.display="none";
     }, (5000))
@@ -114,6 +137,8 @@
     {
         c= c+1;
         if (c==8){
+            document.getElementById("sandpaper").style.cursor="default";
+            document.getElementById("Battery1").style.cursor="default";
     document.getElementById("fun8").style.display="none";}
     else{c = c-1; alert("You Clicked the wrong apparatus");}
     }
